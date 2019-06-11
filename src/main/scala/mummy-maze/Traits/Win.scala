@@ -1,12 +1,10 @@
 package Traits
 
 import Components.Player
-import Maps.Map
+import scalafx.scene.shape.Rectangle
 
 trait Win {
-  def haveCollideExit(player: Player, map: Map) = {
-    if(player.intersects(map.exit.getBoundsInLocal)) {
-      println("WIN")
-    }
+  def haveCollideExit(player: Player, exit: Rectangle) = {
+    player.intersects(exit.getBoundsInLocal)
   }
 }

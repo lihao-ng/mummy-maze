@@ -3,40 +3,36 @@ package Components
 import scalafx.scene.image.Image
 import java.io.File
 
-import Maps.Map
 import Traits.{Death, KeyMovement, Win}
+import scalafx.scene.shape.Rectangle
 
-class Player(val map: Map) extends Character with KeyMovement with Win with Death {
+class Player() extends Character with KeyMovement with Win with Death {
   x = Player.x
   y = Player.y
   fitWidth = Player.width
   fitHeight = Player.height
   image = Player.imageRight
 
-   def moveLeft() = {
+   def moveLeft(walls: List[Rectangle]) = {
     image = Player.imageLeft
     this.x.value -= Player.step
-    if (!wallCollide(map)) this.x.value += Player.step
-    haveCollideExit(this, map)
+    if (!wallCollide(walls)) this.x.value += Player.step
   }
 
-  def moveRight = {
+  def moveRight(walls: List[Rectangle]) = {
     image = Player.imageRight
     this.x.value += Player.step
-    if (!wallCollide(map)) this.x.value -= Player.step
-    haveCollideExit(this, map)
+    if (!wallCollide(walls)) this.x.value -= Player.step
   }
 
-  def moveUp = {
+  def moveUp(walls: List[Rectangle]) = {
     this.y.value -= Player.step
-    if (!wallCollide(map)) this.y.value += Player.step
-    haveCollideExit(this, map)
+    if (!wallCollide(walls)) this.y.value += Player.step
   }
 
-  def moveDown = {
+  def moveDown(walls: List[Rectangle]) = {
     this.y.value += Player.step
-    if (!wallCollide(map)) this.y.value -= Player.step
-    haveCollideExit(this, map)
+    if (!wallCollide(walls)) this.y.value -= Player.step
   }
 }
 

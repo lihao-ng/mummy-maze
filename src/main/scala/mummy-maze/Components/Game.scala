@@ -1,6 +1,6 @@
 package Components
 
-import Maps.Map
+import Maps.{Map, Map2}
 import scalafx.scene._
 import scalafx.scene.input._
 import scalafx.Includes._
@@ -13,15 +13,12 @@ class Game() {
   var keyUp = false
   var keyDown = false
 
-  val map = new Map()
-
-  val player = new Player(map)
-  val mummy = new Mummy(map)
+  var map = new Map(new Player, new Mummy)
 
   val scene = new Scene() {
     content = new SplitPane() {
       items.add(map.menuComponent)
-      items.add(map.wallComponent(player, mummy))
+      items.add(map.wallComponent)
       setDividerPosition(0, 0.3)
       prefWidth = 1000
       prefHeight = 700
@@ -37,22 +34,22 @@ class Game() {
 
     val timer = AnimationTimer(t => {
       if(keyLeft) {
-        player.moveLeft
+        map.player.moveLeft(map.walls)
         playerMove
       }
 
       if(keyRight) {
-        player.moveRight
+        map.player.moveRight(map.walls)
         playerMove
       }
 
       if(keyDown) {
-        player.moveDown
+        map.player.moveDown(map.walls)
         playerMove
       }
 
       if(keyUp) {
-        player.moveUp
+        map.player.moveUp(map.walls)
         playerMove
       }
     })
@@ -71,7 +68,12 @@ class Game() {
   }
 
   def playerMove = {
-    mummy.track(player, mummy, map)
-    if(player.haveDied(player, mummy)) println("Game Over!")
+    map.mummy.track(map.player, map.mummy, map.walls)
+
+    if(map.player.haveDied(map.player, map.mummy)) {
+      println("GAME OVER!")
+    }else if(map.player.haveCollideExit(map.player, map.exit)) {
+      map = new Map2(new Player, new Mummy)
+    }
   }
 }

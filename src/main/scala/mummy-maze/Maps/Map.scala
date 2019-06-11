@@ -9,7 +9,7 @@ import scalafx.scene.layout.AnchorPane
 import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle
 
-class Map {
+class Map(val player: Player, val mummy: Mummy) {
     val outerWall1 = Rectangle (700.0, 35.0)
     val outerWall2 = Rectangle (0.0, 665.0, 700.0, 35.0)
     val outerWall3 = Rectangle (35.0, 598.0)
@@ -56,7 +56,7 @@ class Map {
       children = walls
     }
 
-    def wallComponent(player: Player, mummy: Mummy) = {
+    def wallComponent() = {
       new AnchorPane {
         children = new Group(view, stage, exit, player, mummy)
       }

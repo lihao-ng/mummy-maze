@@ -2,10 +2,11 @@ package Components
 
 import scalafx.scene.image.ImageView
 import Maps.Map
+import scalafx.scene.shape.Rectangle
 
 class Character extends ImageView {
-  def wallCollide(map: Map) = {
-    map.walls.forall(wall => {
+  def wallCollide(walls: List[Rectangle]) = {
+    walls.forall(wall => {
       !this.intersects(wall.getLayoutBounds)
     })
   }

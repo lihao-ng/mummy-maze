@@ -1,36 +1,32 @@
 package Traits
 
-import Maps.Map
 import Components.{Mummy, Player}
+import scalafx.scene.shape.Rectangle
 
 trait TrackMovement {
-  def track(player: Player, mummy: Mummy, map: Map) = {
+  def track(player: Player, mummy: Mummy, walls: List[Rectangle]) = {
     val playerX = player.x.value
     val playerY = player.y.value
 
     val mummyX = mummy.x.value
     val mummyY = mummy.y.value
 
-    if(playerX > mummyX) {
+    if(playerX >= mummyX) {
       mummy.image = Mummy.imageRight
       mummy.x.value += Mummy.step
-      if (!mummy.wallCollide(map)) mummy.x.value -= Mummy.step
-    }
-
-    if(playerX < mummyX) {
+      if (!mummy.wallCollide(walls)) mummy.x.value -= Mummy.step
+    }else {
       mummy.image = Mummy.imageLeft
       mummy.x.value -= Mummy.step
-      if (!mummy.wallCollide(map)) mummy.x.value += Mummy.step
+      if (!mummy.wallCollide(walls)) mummy.x.value += Mummy.step
     }
 
-    if(playerY > mummyY) {
+    if(playerY >= mummyY) {
       mummy.y.value += Mummy.step
-      if (!mummy.wallCollide(map)) mummy.y.value -= Mummy.step
-    }
-
-    if(playerY < mummyY) {
+      if (!mummy.wallCollide(walls)) mummy.y.value -= Mummy.step
+    }else  {
       mummy.y.value -= Mummy.step
-      if (!mummy.wallCollide(map)) mummy.y.value += Mummy.step
+      if (!mummy.wallCollide(walls)) mummy.y.value += Mummy.step
     }
   }
 }
