@@ -7,17 +7,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f89d99b-3f41-4a2a-adcb-9d4d1303e79e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Game.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Map.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mummy-maze.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mummy-maze.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Character.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Character.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Game.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Game.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Mummy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Mummy.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Player.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Player.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/KeyMovement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/KeyMovement.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/TrackMovement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/TrackMovement.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Win.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Win.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/background/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/background/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/mummy/mummy_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/mummy/mummy_down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/mummy/mummy_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/mummy/mummy_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/mummy/mummy_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/mummy/mummy_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/mummy/mummy_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/mummy/mummy_up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/player/player_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/player/player_down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/player/player_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/player/player_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/player/player_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/player/player_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/images/player/player_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/images/player/player_up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/musics/background_music.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/musics/background_music.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mummy-maze/musics/mummy_walking.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mummyMaze/musics/mummy_walking.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Character.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Character.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Game.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Mummy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Mummy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Phase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Phase.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Player.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Player.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Score.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Score.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Death.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/Death.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/KeyMovement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/KeyMovement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/TrackMovement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/TrackMovement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Win.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/Win.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mummy-maze$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mummy-maze$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mummy-maze$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mummy-maze$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mummy-maze$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Map.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
               <folding>
                 <element signature="e#14#33#0" expanded="true" />
               </folding>
@@ -52,31 +84,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map2.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Game.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Game.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="629">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding>
-                <element signature="e#20#43#0" expanded="true" />
+                <element signature="e#20#35#0" expanded="true" />
+                <element signature="e#995#1151#0" />
+                <element signature="e#1323#1682#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Player.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="258">
+              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Player.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
               <folding>
                 <element signature="e#20#52#0" expanded="true" />
               </folding>
@@ -85,7 +137,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/KeyMovement.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/KeyMovement.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
@@ -94,7 +146,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Win.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/Win.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
@@ -106,10 +158,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Mummy.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Mummy.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
               <folding>
                 <element signature="e#20#65#0" expanded="true" />
               </folding>
@@ -118,7 +170,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Character.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Character.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
@@ -152,11 +204,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Game/Game.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/target/.history" />
         <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Game.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/WallCollide.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Character.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Mummy.scala" />
@@ -165,16 +215,25 @@
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Win.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/KeyMovement.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Stage1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Stage2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Game.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Game.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Mummy.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Player.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Map.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage2.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -185,7 +244,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +275,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="mummy-maze" type="462c0819:PsiDirectoryNode" />
+              <item name="mummyMaze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mummy-maze" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +283,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="mummy-maze" type="462c0819:PsiDirectoryNode" />
+              <item name="mummyMaze" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,27 +292,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="mummy-maze" type="462c0819:PsiDirectoryNode" />
+              <item name="mummyMaze" type="462c0819:PsiDirectoryNode" />
               <item name="Maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mummy-maze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mummy-maze" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="mummy-maze" type="462c0819:PsiDirectoryNode" />
-              <item name="Traits" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOP_PacMan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -287,7 +337,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="mummyMaze.Main" />
       <module name="mummy-maze" />
       <extension name="coverage">
         <pattern>
@@ -362,10 +412,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15973154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,7 +424,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +434,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3323782" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,13 +484,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala" />
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -448,13 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Game.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Game.scala" />
     <entry file="file://$PROJECT_DIR$/target/.history">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -462,76 +500,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/WallCollide.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Character.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#20#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/TrackMovement.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/WallCollide.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/TrackMovement.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <element signature="e#16#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Mummy.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#20#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/Win.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#16#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Traits/KeyMovement.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Player.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#20#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -543,23 +518,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Components/Game.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/KeyMovement.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Game.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding>
-            <element signature="e#20#43#0" expanded="true" />
+            <element signature="e#20#35#0" expanded="true" />
+            <element signature="e#995#1151#0" />
+            <element signature="e#1323#1682#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mummy-maze/Maps/Map.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Traits/Win.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#16#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Mummy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <element signature="e#20#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Player.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#20#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Map.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding>
             <element signature="e#14#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Components/Character.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#20#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mummyMaze/Maps/Stage2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>

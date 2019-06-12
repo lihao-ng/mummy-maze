@@ -18,7 +18,7 @@ object Mummy {
   val y = 445
   val width = 55
   val height = 55
-  val step = 4
-  val imageLeft = new Image(new File("src/main/resources/mummy-maze/images/mummy/mummy_left.png").toURI.toURL.toString)
-  val imageRight = new Image(new File("src/main/resources/mummy-maze/images/mummy/mummy_right.png").toURI.toURL.toString)
+  val step = 2
+  val imageLeft = new Image(new File("src/main/resources/mummyMaze/images/mummy/mummy_left.png").toURI.toURL.toString)
+  val imageRight = new Image(new File("src/main/resources/mummyMaze/images/mummy/mummy_right.png").toURI.toURL.toString)
 }

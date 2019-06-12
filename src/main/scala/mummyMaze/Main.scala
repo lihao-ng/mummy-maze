@@ -1,3 +1,5 @@
+package mummyMaze
+
 import java.io.File
 
 import Components.Game
@@ -44,7 +46,7 @@ object Main extends JFXApp {
   }
 
   def playMusic = {
-    new MediaPlayer(new Media (new File("src/main/resources/mummy-maze/musics/background_music.wav").toURI.toURL.toString))
+    new MediaPlayer(new Media (new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
 
   }
 }
