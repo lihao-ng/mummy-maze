@@ -4,7 +4,7 @@
 		module="mummy-maze$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190611171836"
+		publication="20190624124715"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

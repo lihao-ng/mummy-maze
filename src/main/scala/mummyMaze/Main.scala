@@ -1,3 +1,5 @@
+package mummyMaze
+
 import java.io.File
 
 import Components.Game
@@ -13,14 +15,9 @@ object Main extends JFXApp {
   val Height = 748
   val polyline = Polyline(0, 0, 500, 0, 500, 500, 0, 500, 100, 0)
 
-  val start = playMusic
-
-//  start.play()
-//  start.onEndOfMedia = new Runnable {
-//    def run(): Unit = {
-//      start.play()
-//    }
-//  }
+  val music = playMusic
+  music.cycleCount = MediaPlayer.Indefinite
+  music.play()
 
   stage = new JFXApp.PrimaryStage {
     title = "Mummy Maze"
@@ -49,6 +46,7 @@ object Main extends JFXApp {
   }
 
   def playMusic = {
-    new MediaPlayer(new Media (new File("src/main/resources/mummy-maze/musics/mummy_walking.wav").toURI.toURL.toString))
+    new MediaPlayer(new Media (new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
+
   }
 }
