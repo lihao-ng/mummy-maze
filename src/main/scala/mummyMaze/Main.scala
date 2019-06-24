@@ -11,6 +11,7 @@ import scalafx.scene.media.{Media, MediaPlayer}
 import scalafx.scene.shape.Polyline
 
 object Main extends JFXApp {
+//  hi
   val Width = 1017
   val Height = 748
   val polyline = Polyline(0, 0, 500, 0, 500, 500, 0, 500, 100, 0)
