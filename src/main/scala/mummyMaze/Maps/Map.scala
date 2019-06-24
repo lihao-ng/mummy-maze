@@ -11,6 +11,7 @@ import scalafx.scene.shape.Rectangle
 
 class Map(val player: Player, val mummy: Mummy, val level: Int) {
     val walls = getStage
+
     val img = new Image(new File("src/main/resources/mummyMaze/images/background/background.jpg").toURI.toURL.toString)
     val view = new ImageView(img)
     view.fitWidth = 700.0
@@ -20,6 +21,7 @@ class Map(val player: Player, val mummy: Mummy, val level: Int) {
     exit.fill = Color.Aqua
 
     val stage = new Group {
+      style = "-fx-background-color: brown"
       children = walls
     }
 
@@ -30,12 +32,14 @@ class Map(val player: Player, val mummy: Mummy, val level: Int) {
     }
 
     def menuComponent = {
-      new AnchorPane()
+      new AnchorPane {
+        minWidth = 300.0
+      }
     }
 
   def getStage = {
     if(level == 1) {
-      Stage1.walls
+      Level1.walls
     }else {
       Stage2.walls
     }

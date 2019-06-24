@@ -13,9 +13,11 @@ class Game() {
   var keyRight = false
   var keyUp = false
   var keyDown = false
-
+  var currentLevel = 1
   var map = new Map(new Player, new Mummy, 1)
   var scene = createScene
+  var timer = createTimer
+  timer.start()
 
   def keyValues(e: KeyEvent, condition: Boolean) = {
     e.code match {
@@ -39,7 +41,7 @@ class Game() {
     }
   }
 
-  def createScene: Scene = {
+  def createScene = {
     new Scene() {
       content = new SplitPane() {
         items.add(map.menuComponent)
@@ -56,8 +58,11 @@ class Game() {
       onKeyReleased = (e:KeyEvent) => {
         keyValues(e, false)
       }
+    }
+  }
 
-      val timer = AnimationTimer(t => {
+  def createTimer = {
+      AnimationTimer(t => {
         if(keyLeft) {
           map.player.moveLeft(map.walls)
           playerMove
@@ -78,8 +83,5 @@ class Game() {
           playerMove
         }
       })
-
-      timer.start()
-    }
   }
 }

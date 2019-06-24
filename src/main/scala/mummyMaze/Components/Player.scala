@@ -43,7 +43,7 @@ object Player {
   val y = 150
   val width = 55
   val height = 55
-  val step = 2
+  val step = 4
   val imageLeft = new Image(new File("src/main/resources/mummyMaze/images/player/player_left.png").toURI.toURL.toString)
   val imageRight = new Image(new File("src/main/resources/mummyMaze/images/player/player_right.png").toURI.toURL.toString)
 }
