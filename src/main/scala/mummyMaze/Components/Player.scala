@@ -37,8 +37,6 @@ class Player() extends Character with KeyMovement with Win with Death {
 }
 
 object Player {
-//  40
-//  350
   val x = 370
   val y = 150
   val width = 55

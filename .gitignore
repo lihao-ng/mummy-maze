@@ -15,7 +15,6 @@ project/plugins/project/
 .lib/
 .idea/
 
-
 ### Scala ###
 *.class
 *.log

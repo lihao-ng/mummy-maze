@@ -37,14 +37,13 @@ object Main extends JFXApp {
     }
   }
 
-
-  def changeScreen ={
+  def changeScreen = {
     val game = new Game()
     stage.scene = game.scene
   }
 
   def playMusic = {
-    new MediaPlayer(new Media (new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
+    new MediaPlayer(new Media(new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
   }
 
   def backHomePage():Unit ={

@@ -1,7 +1,6 @@
 package Components
 
 import scalafx.scene.image.ImageView
-import Maps.Map
 import scalafx.scene.shape.Rectangle
 
 class Character extends ImageView {

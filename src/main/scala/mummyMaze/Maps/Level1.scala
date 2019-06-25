@@ -5,10 +5,9 @@ import scalafx.scene.shape.Rectangle
 import java.io.File
 
 import scalafx.scene.image.{Image, ImageView}
-import scalafx.scene.layout.AnchorPane
+
 
 object Level1 {
-  //stage 1
   val outerWall1 = Rectangle (700.0, 35.0)
   outerWall1.fill = Color.rgb(216, 155, 49)
 
@@ -55,11 +54,6 @@ object Level1 {
   wall11.fill = Color.rgb(216, 155, 49)
 
   val img = new Image(new File("src/main/background.jpg").toURI.toURL.toString)
-  val exit = new ImageView(img)
-  exit.fitWidth = 35.0
-  exit.fitHeight = 67.0
-  exit.setX(0.0)
-  exit.setY(598.0)
 
   val walls = List(
     wall1,
