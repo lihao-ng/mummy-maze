@@ -4,13 +4,13 @@ import scalafx.scene.image.ImageView
 import scalafx.scene.shape.Rectangle
 
 class Character extends ImageView {
-  def wallCollide(walls: List[Rectangle]) = {
+  def noWallCollision(walls: List[Rectangle]) = {
     walls.forall(wall => {
       !this.intersects(wall.getLayoutBounds)
     })
   }
 
-  def haveCollideExit(player: Player, exit: ImageView) = {
-    player.intersects(exit.getBoundsInLocal)
+  def haveCollideExit(exit: ImageView) = {
+    this.intersects(exit.getBoundsInLocal)
   }
 }

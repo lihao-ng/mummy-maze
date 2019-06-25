@@ -6,7 +6,7 @@ import java.io.File
 import Traits.{Death, KeyMovement, Win}
 import scalafx.scene.shape.Rectangle
 
-class Player() extends Character with KeyMovement with Win with Death {
+class Player() extends Character with KeyMovement with Death {
   x = Player.x
   y = Player.y
   fitWidth = Player.width
@@ -16,23 +16,23 @@ class Player() extends Character with KeyMovement with Win with Death {
    def moveLeft(walls: List[Rectangle]) = {
     image = Player.imageLeft
     this.x.value -= Player.step
-    if (!wallCollide(walls)) this.x.value += Player.step
+    if (!noWallCollision(walls)) this.x.value += Player.step
   }
 
   def moveRight(walls: List[Rectangle]) = {
     image = Player.imageRight
     this.x.value += Player.step
-    if (!wallCollide(walls)) this.x.value -= Player.step
+    if (!noWallCollision(walls)) this.x.value -= Player.step
   }
 
   def moveUp(walls: List[Rectangle]) = {
     this.y.value -= Player.step
-    if (!wallCollide(walls)) this.y.value += Player.step
+    if (!noWallCollision(walls)) this.y.value += Player.step
   }
 
   def moveDown(walls: List[Rectangle]) = {
     this.y.value += Player.step
-    if (!wallCollide(walls)) this.y.value -= Player.step
+    if (!noWallCollision(walls)) this.y.value -= Player.step
   }
 }
 
