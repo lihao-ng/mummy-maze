@@ -2,7 +2,7 @@ package mummyMaze
 
 import java.io.File
 
-import Components.Game
+import Components.{Game, HighScoreRecord, Score}
 import scalafx.Includes._
 import scalafx.scene.media.{Media, MediaPlayer}
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
@@ -26,14 +26,18 @@ object Main extends JFXApp {
   loader.load()
   val roots = loader.getRoot[jfxs.layout.AnchorPane]
 
-  val music = playMusic
-  music.cycleCount = MediaPlayer.Indefinite
-  music.play()
+//  val music = playMusic
+//  music.cycleCount = MediaPlayer.Indefinite
+//  music.play()
 
   stage = new PrimaryStage {
     title = "MummyMaze"
-    scene = new Scene {
-      root = roots
+    scene = loadMainMenu
+  }
+
+  def loadMainMenu = {
+    new Scene {
+      content = roots
     }
   }
 

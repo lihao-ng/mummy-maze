@@ -7,10 +7,8 @@ import scalafx.Includes._
 import scalafx.animation.AnimationTimer
 import scalafx.scene.control.SplitPane
 import scalafx.scene.layout.AnchorPane
-import scalafx.scene.shape.Polyline
 
 class Game() {
-  val polyline = Polyline(0, 0, 500, 0, 500, 500, 0, 500, 100, 0)
   var keyLeft = false
   var keyRight = false
   var keyUp = false
@@ -20,27 +18,6 @@ class Game() {
   var scene = createScene
   var timer = createTimer
   timer.start()
-
-  def keyValues(e: KeyEvent, condition: Boolean) = {
-    e.code match {
-      case KeyCode.Left => keyLeft = condition
-      case KeyCode.Right => keyRight = condition
-      case KeyCode.Up => keyUp = condition
-      case KeyCode.Down => keyDown = condition
-      case _ =>
-    }
-  }
-
-  def playerMove = {
-    map.mummy.track(map.player, map.mummy, map.walls)
-
-    if(map.player.haveDied(map.player, map.mummy)) {
-      println("GAME OVER!")
-    }else if(map.player.haveCollideExit(map.player, map.exit)) {
-      currentLevel += 1
-      switchLevel
-    }
-  }
 
   def createScene = {
     new Scene() {
@@ -90,6 +67,27 @@ class Game() {
         playerMove
       }
     })
+  }
+
+  def keyValues(e: KeyEvent, condition: Boolean) = {
+    e.code match {
+      case KeyCode.Left => keyLeft = condition
+      case KeyCode.Right => keyRight = condition
+      case KeyCode.Up => keyUp = condition
+      case KeyCode.Down => keyDown = condition
+      case _ =>
+    }
+  }
+
+  def playerMove = {
+    map.mummy.track(map.player, map.mummy, map.walls)
+
+    if(map.player.haveDied(map.player, map.mummy)) {
+      println("GAME OVER!")
+    }else if(map.player.haveCollideExit(map.player, map.exit)) {
+      currentLevel += 1
+      switchLevel
+    }
   }
 
   def switchLevel = {

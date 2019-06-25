@@ -31,7 +31,7 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalafx#scalafxml-core-macros-sfx8_2.12;0.4 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalafx#scalafxml-core-macros-sfx8_2.12;0.4 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], plugin=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.7
 [debug] 	found org.scala-lang#scala-reflect;2.12.7 in sbt-chain
 [debug] 	[2.12.7] org.scala-lang#scala-reflect;2.12.7
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], plugin=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], plugin=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7
 [debug] 	found org.scala-lang#scala-library;2.12.7 in sbt-chain
 [debug] 	[2.12.7] org.scala-lang#scala-library;2.12.7
@@ -977,13 +977,13 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [plugin->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [plugin->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [plugin->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {plugin=[master(*), compile, runtime(*), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
 [debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->compile]
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->master(compile)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->runtime]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [plugin->compile(*)]
@@ -1003,7 +1003,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalamacros#paradise_2.12.7;2.1.1 [plugin->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalamacros#paradise_2.12.7;2.1.1 [plugin->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalamacros#paradise_2.12.7;2.1.1 [plugin->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [plugin->master(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [plugin->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [plugin->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [plugin->compile]
@@ -1035,18 +1034,18 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile]
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile(*)]
@@ -1059,136 +1058,41 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->optional]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
 [debug] 	found jline#jline;2.14.6 in sbt-chain
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->compile]
+[debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scalafx#scalafxml-core-sfx8_2.12;0.4!scalafxml-core-sfx8_2.12.jar(src)
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
 [debug] 	[NOT REQUIRED] org.scalafx#scalafxml-core-macros-sfx8_2.12;0.4!scalafxml-core-macros-sfx8_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scalafx#scalafx_2.12;8.0.181-R13!scalafx_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (52ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scalafx#scalafx_2.12;8.0.181-R13!scalafx_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalamacros#paradise_2.12.7;2.1.1!paradise_2.12.7.jar(src)
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (77ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (89ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (105ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (103ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (109ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 591ms :: artifacts dl 146ms
-[debug] 	report for default#mummy-maze$sources;0.1 compile produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile.xml
-[debug] 	report for default#mummy-maze$sources;0.1 runtime produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime.xml
-[debug] 	report for default#mummy-maze$sources;0.1 test produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test.xml
-[debug] 	report for default#mummy-maze$sources;0.1 provided produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-provided.xml
-[debug] 	report for default#mummy-maze$sources;0.1 optional produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-optional.xml
-[debug] 	report for default#mummy-maze$sources;0.1 compile-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile-internal.xml
-[debug] 	report for default#mummy-maze$sources;0.1 runtime-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime-internal.xml
-[debug] 	report for default#mummy-maze$sources;0.1 test-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test-internal.xml
-[debug] 	report for default#mummy-maze$sources;0.1 plugin produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-plugin.xml
-[debug] 	report for default#mummy-maze$sources;0.1 pom produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-pom.xml
-[debug] 	report for default#mummy-maze$sources;0.1 scala-tool produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-scala-tool.xml
-[debug] 	resolve done (591ms resolve - 146ms download)
+[debug] :: resolution report :: resolve 79ms :: artifacts dl 5ms
+[debug] 	report for default#mummy-maze$sources;0.1 compile produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile.xml
+[debug] 	report for default#mummy-maze$sources;0.1 runtime produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime.xml
+[debug] 	report for default#mummy-maze$sources;0.1 test produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test.xml
+[debug] 	report for default#mummy-maze$sources;0.1 provided produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-provided.xml
+[debug] 	report for default#mummy-maze$sources;0.1 optional produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-optional.xml
+[debug] 	report for default#mummy-maze$sources;0.1 compile-internal produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile-internal.xml
+[debug] 	report for default#mummy-maze$sources;0.1 runtime-internal produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime-internal.xml
+[debug] 	report for default#mummy-maze$sources;0.1 test-internal produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test-internal.xml
+[debug] 	report for default#mummy-maze$sources;0.1 plugin produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-plugin.xml
+[debug] 	report for default#mummy-maze$sources;0.1 pom produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-pom.xml
+[debug] 	report for default#mummy-maze$sources;0.1 scala-tool produced in C:\Study\Sem 5\OOP\Assignment\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-scala-tool.xml
+[debug] 	resolve done (79ms resolve - 5ms download)
