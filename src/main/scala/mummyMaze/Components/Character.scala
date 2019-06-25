@@ -9,4 +9,8 @@ class Character extends ImageView {
       !this.intersects(wall.getLayoutBounds)
     })
   }
+
+  def haveCollideExit(player: Player, exit: ImageView) = {
+    player.intersects(exit.getBoundsInLocal)
+  }
 }
