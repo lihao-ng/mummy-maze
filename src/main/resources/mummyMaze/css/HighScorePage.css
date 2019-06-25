@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Rakkas&display=swap');
+
+.background {
+    -fx-background-color: #d89b31;
+}
+
+.table-view {
+    -fx-base: transparent;
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view-title {
+    -fx-font-size: 20pt;
+    -fx-font-family: 'Rakkas';
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+    -fx-alignment: center;
+}
+

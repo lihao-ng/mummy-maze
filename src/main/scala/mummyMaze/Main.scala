@@ -3,43 +3,40 @@ package mummyMaze
 import java.io.File
 
 import Components.Game
-import scalafx.application._
-import scalafx.scene._
-import scalafx.scene.input._
 import scalafx.Includes._
 import scalafx.scene.media.{Media, MediaPlayer}
-import scalafx.scene.shape.Polyline
+import scalafxml.core.{FXMLLoader, NoDependencyResolver}
+import javafx.{scene => jfxs}
+import scalafx.application.JFXApp
+import scalafx.application.JFXApp.PrimaryStage
+import scalafx.scene.Scene
+import scalafx.collections.ObservableBuffer
 
 object Main extends JFXApp {
-//  hi
-  val Width = 1017
-  val Height = 748
-  val polyline = Polyline(0, 0, 500, 0, 500, 500, 0, 500, 100, 0)
+
+  val playersHighScore = new ObservableBuffer[HighScoreRecord]()
+  playersHighScore += new HighScoreRecord("Hans", new Score(1000))
+  playersHighScore += new HighScoreRecord("Ben", new Score(1000))
+  playersHighScore += new HighScoreRecord("Daniel", new Score(1000))
+  playersHighScore += new HighScoreRecord("Nicholas", new Score(1000))
+  playersHighScore += new HighScoreRecord("James", new Score(1000))
+
+  val rootResource = getClass.getResource("view/Main.fxml")
+  val loader = new FXMLLoader(rootResource, NoDependencyResolver)
+  loader.load()
+  val roots = loader.getRoot[jfxs.layout.AnchorPane]
 
   val music = playMusic
   music.cycleCount = MediaPlayer.Indefinite
   music.play()
 
-  stage = new JFXApp.PrimaryStage {
-    title = "Mummy Maze"
-    minWidth = Width
-    maxWidth = Width
-    minHeight = Height
-    maxHeight = Height
-
-    scene = new Scene(Width, Height) {
-      content = List(polyline)
-
-      onKeyPressed = (e: KeyEvent) => {
-        e.code match {
-          case KeyCode.Left => {
-            changeScreen
-          }
-          case _ =>
-        }
-      }
+  stage = new PrimaryStage {
+    title = "MummyMaze"
+    scene = new Scene {
+      root = roots
     }
-}
+  }
+
 
   def changeScreen ={
     val game = new Game()
@@ -48,6 +45,31 @@ object Main extends JFXApp {
 
   def playMusic = {
     new MediaPlayer(new Media (new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
+  }
 
+  def backHomePage():Unit ={
+    val resource = getClass.getResource("view/Main.fxml")
+    val loader = new FXMLLoader(resource, NoDependencyResolver)
+    loader.load()
+    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
+    stage.scene().setRoot(roots2)
+  }
+
+  def viewHighScore():Unit ={
+    val resource = getClass.getResource("view/HighScore.fxml")
+    val loader = new FXMLLoader(resource, NoDependencyResolver)
+    loader.load()
+    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
+    roots2.stylesheets = List(getClass.getResource("css/HighScorePage.css").toExternalForm)
+    stage.scene().setRoot(roots2)
+  }
+
+  def startGame():Unit ={
+    val game = new Game()
+    stage.scene = game.scene
+  }
+
+  def quitGame():Unit ={
+    stage.close()
   }
 }
