@@ -1,20 +1,22 @@
 package Components
 
-import Maps.Map
 import mummyMaze.Main
 import scalafx.scene._
 import scalafx.scene.input._
 import scalafx.Includes._
 import scalafx.animation.AnimationTimer
 import scalafx.scene.control.SplitPane
+import scalafx.scene.layout.AnchorPane
+import scalafx.scene.shape.Polyline
 
 class Game() {
+  val polyline = Polyline(0, 0, 500, 0, 500, 500, 0, 500, 100, 0)
   var keyLeft = false
   var keyRight = false
   var keyUp = false
   var keyDown = false
   var currentLevel = 1
-  var map = new Map(new Player, new Mummy, 1)
+  var map = new Map(new Player, new Mummy, currentLevel)
   var scene = createScene
   var timer = createTimer
   timer.start()
@@ -35,16 +37,15 @@ class Game() {
     if(map.player.haveDied(map.player, map.mummy)) {
       println("GAME OVER!")
     }else if(map.player.haveCollideExit(map.player, map.exit)) {
-      map = new Map(new Player, new Mummy, 2)
-      scene = createScene
-      Main.stage.scene = scene
+      currentLevel += 1
+      switchLevel
     }
   }
 
   def createScene = {
     new Scene() {
       content = new SplitPane() {
-        items.add(map.menuComponent)
+        items.add(menuComponent)
         items.add(map.wallComponent)
         setDividerPosition(0, 0.3)
         prefWidth = 1000
@@ -61,27 +62,42 @@ class Game() {
     }
   }
 
+  def menuComponent = {
+    new AnchorPane {
+      minWidth = 300.0
+    }
+  }
+
   def createTimer = {
-      AnimationTimer(t => {
-        if(keyLeft) {
-          map.player.moveLeft(map.walls)
-          playerMove
-        }
+    AnimationTimer(t => {
+      if(keyLeft) {
+        map.player.moveLeft(map.walls)
+        playerMove
+      }
 
-        if(keyRight) {
-          map.player.moveRight(map.walls)
-          playerMove
-        }
+      if(keyRight) {
+        map.player.moveRight(map.walls)
+        playerMove
+      }
 
-        if(keyDown) {
-          map.player.moveDown(map.walls)
-          playerMove
-        }
+      if(keyDown) {
+        map.player.moveDown(map.walls)
+        playerMove
+      }
 
-        if(keyUp) {
-          map.player.moveUp(map.walls)
-          playerMove
-        }
-      })
+      if(keyUp) {
+        map.player.moveUp(map.walls)
+        playerMove
+      }
+    })
+  }
+
+  def switchLevel = {
+    if(currentLevel <= Map.levels.length) {
+      map = new Map(new Player, new Mummy, currentLevel)
+      Main.stage.scene = createScene
+    } else {
+      Main.stage.scene = Main.loadMainMenu
+    }
   }
 }

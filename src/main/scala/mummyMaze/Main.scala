@@ -26,7 +26,10 @@ object Main extends JFXApp {
     minHeight = Height
     maxHeight = Height
 
-    scene = new Scene(Width, Height) {
+    scene = loadMainMenu
+}
+  def loadMainMenu = {
+    new Scene(Width, Height) {
       content = List(polyline)
 
       onKeyPressed = (e: KeyEvent) => {
@@ -38,15 +41,14 @@ object Main extends JFXApp {
         }
       }
     }
-}
+  }
 
-  def changeScreen ={
+  def changeScreen = {
     val game = new Game()
     stage.scene = game.scene
   }
 
   def playMusic = {
-    new MediaPlayer(new Media (new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
-
+    new MediaPlayer(new Media(new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
   }
 }

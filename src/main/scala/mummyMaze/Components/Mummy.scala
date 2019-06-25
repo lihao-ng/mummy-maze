@@ -1,5 +1,4 @@
 package Components
-
 import scalafx.scene.image.{Image, ImageView}
 import java.io.File
 
