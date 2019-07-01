@@ -1,6 +1,6 @@
 package mummyMaze.Controller
 
-import Components.HighScoreRecord
+import Components.{HighScoreRecord, Score}
 import scalafx.scene.control.{TableColumn, TableView}
 import mummyMaze.Main
 import scalafx.event.ActionEvent
@@ -20,4 +20,13 @@ class HighScoreRecordController(
   def back(actionEvent: ActionEvent) = {
     Main.backHomePage()
   }
+
+//  def handleNewRecord(action : ActionEvent) = {
+//    val person = new Person("","")
+//    val okClicked = MainApp.showPersonEditDialog(person);
+//    if (okClicked) {
+//      person.save()
+//      MainApp.personData += person
+//    }
+//  }
 }

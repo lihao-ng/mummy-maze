@@ -3,6 +3,7 @@ package mummyMaze
 import java.io.File
 
 import Components.{Game, HighScoreRecord, Score}
+import Database.Database
 import scalafx.Includes._
 import scalafx.scene.media.{Media, MediaPlayer}
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
@@ -12,9 +13,15 @@ import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
 import scalafx.collections.ObservableBuffer
 
+
 object Main extends JFXApp {
 
+  Database.setupDB()
   val playersHighScore = new ObservableBuffer[HighScoreRecord]()
+
+  playersHighScore ++= HighScoreRecord.getAllRecord
+
+//  val playersHighScore = new ObservableBuffer[HighScoreRecord]()
   playersHighScore += new HighScoreRecord("Hans", new Score(1000))
   playersHighScore += new HighScoreRecord("Ben", new Score(1000))
   playersHighScore += new HighScoreRecord("Daniel", new Score(1000))

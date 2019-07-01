@@ -10,7 +10,7 @@ class Character extends ImageView {
     })
   }
 
-  def haveCollideExit(player: Player, exit: ImageView) = {
-    player.intersects(exit.getBoundsInLocal)
+  def haveCollideExit(exit: ImageView) = {
+    this.intersects(exit.getBoundsInLocal)
   }
 }
