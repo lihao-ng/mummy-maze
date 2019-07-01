@@ -3,7 +3,7 @@ package Components
 import scalafx.scene.image.Image
 import java.io.File
 
-import Traits.{Death, KeyMovement, Win}
+import Traits.{Death, KeyMovement}
 import scalafx.scene.shape.Rectangle
 
 class Player() extends Character with KeyMovement with Death {
