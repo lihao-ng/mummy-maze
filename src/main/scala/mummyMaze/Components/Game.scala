@@ -80,11 +80,11 @@ class Game() {
   }
 
   def playerMove = {
-    map.mummy.track(map.player, map.mummy, map.walls)
+    map.mummy.track(map.player, map.mummy, map.walls, map.exit)
 
     if(map.player.haveDied(map.player, map.mummy)) {
       println("GAME OVER!")
-    }else if(map.player.haveCollideExit(map.player, map.exit)) {
+    }else if(map.player.haveCollideExit(map.exit)) {
       currentLevel += 1
       switchLevel
     }
