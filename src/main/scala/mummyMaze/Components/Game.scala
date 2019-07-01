@@ -1,6 +1,7 @@
 package Components
 
 import java.io.File
+import java.util.{Timer, TimerTask}
 
 import mummyMaze.Main
 import scalafx.scene._
@@ -16,11 +17,37 @@ class Game() {
   var keyRight = false
   var keyUp = false
   var keyDown = false
+
   var currentLevel = 1
   var map = new Map(new Player, new Mummy, currentLevel)
+  var currentScore = new Score(0)
+
+  var bonusTime = 1
+  var bonusTimer = new Timer()
+  var task = loadBonusTimer()
+  bonusTimer.schedule(task, 1000, 1000)
+
   var scene = createScene
   var timer = createTimer
   timer.start()
+
+  def loadBonusTimer()= {
+    new TimerTask {
+      def run() = {
+        println(bonusTime)
+        if(bonusTime >= 40) {
+          print("Stop")
+          stopTimer(this)
+        }else {
+          bonusTime += 1
+        }
+      }
+    }
+  }
+
+  def stopTimer(task: TimerTask) = {
+    task.cancel()
+  }
 
   def createScene = {
     new Scene() {
@@ -133,10 +160,29 @@ class Game() {
 
   def switchLevel = {
     if(currentLevel <= Map.levels.length) {
+      getScore
       map = new Map(new Player, new Mummy, currentLevel)
       Main.stage.scene = createScene
     } else {
+      stopTimer(task)
       Main.stage.scene = Main.loadMainMenu
     }
+  }
+
+  def getScore = {
+    val currentValue = currentScore.v.value
+    var bonusScore = 0
+
+    bonusTime match {
+      case x if x <= 10 => bonusScore = 30
+      case x if x <= 20 => bonusScore = 20
+      case x if x <= 30 => bonusScore = 10
+      case _=> bonusScore = 0
+    }
+
+    currentScore = new Score(currentValue + bonusScore + 50)
+    bonusTime = 1
+    task = loadBonusTimer()
+    stopTimer(task)
   }
 }
