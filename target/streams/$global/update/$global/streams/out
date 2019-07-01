@@ -192,8 +192,54 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.derby#derby;10.14.2.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.apache.derby#derby;10.14.2.0
-[debug] 	found org.apache.derby#derby;10.14.2.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.derby#derby;10.14.2.0 {compile=[default(compile)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.derby\derby\10.14.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.derby#derby;10.14.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom
+[debug] 	public: found md file for org.apache.derby#derby;10.14.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom (10.14.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.derby#derby;10.14.2.0!derby.pom(pom.original) (790ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache.derby#derby-project;10.14.2.0 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.derby#derby-project;10.14.2.0 {}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.derby\derby-project\10.14.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.derby#derby-project;10.14.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom
+[debug] 	public: found md file for org.apache.derby#derby-project;10.14.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom (10.14.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.derby#derby-project;10.14.2.0!derby-project.pom(pom.original) (798ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;10 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;10 {}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache\apache\10\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache#apache;10
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom
+[debug] 	public: found md file for org.apache#apache;10
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom (10)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom
+[debug] 	[SUCCESSFUL ] org.apache#apache;10!apache.pom(pom.original) (973ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache\apache\10\jars\apache.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache\apache\10\jars\apache.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/apache/10/apache-10.jar
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.derby\derby-project\10.14.2.0\jars\derby-project.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache.derby\derby-project\10.14.2.0\jars\derby-project.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.jar
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.derby\derby\10.14.2.0\jars\derby.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+[debug] 	found org.apache.derby#derby;10.14.2.0 in public
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
@@ -201,8 +247,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc_2.12;3.3.5 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc_2.12;3.3.5
-[debug] 	found org.scalikejdbc#scalikejdbc_2.12;3.3.5 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalikejdbc#scalikejdbc_2.12;3.3.5 {compile=[default(compile)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc_2.12\3.3.5\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scalikejdbc#scalikejdbc_2.12;3.3.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.pom
+[debug] 	public: found md file for org.scalikejdbc#scalikejdbc_2.12;3.3.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.pom (3.3.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.pom
+[debug] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc_2.12;3.3.5!scalikejdbc_2.12.pom(pom.original) (767ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc_2.12\3.3.5\jars\scalikejdbc_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.jar
+[debug] 	found org.scalikejdbc#scalikejdbc_2.12;3.3.5 in public
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->org.scalikejdbc#scalikejdbc_2.12;3.3.5 [compile->runtime]
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->org.scalikejdbc#scalikejdbc_2.12;3.3.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -222,8 +280,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-core_2.12;3.3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-core_2.12;3.3.5
-[debug] 	found org.scalikejdbc#scalikejdbc-core_2.12;3.3.5 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-core_2.12;3.3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-core_2.12\3.3.5\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scalikejdbc#scalikejdbc-core_2.12;3.3.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.pom
+[debug] 	public: found md file for org.scalikejdbc#scalikejdbc-core_2.12;3.3.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.pom (3.3.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.pom
+[debug] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-core_2.12;3.3.5!scalikejdbc-core_2.12.pom(pom.original) (786ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-core_2.12\3.3.5\jars\scalikejdbc-core_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.jar
+[debug] 	found org.scalikejdbc#scalikejdbc-core_2.12;3.3.5 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalikejdbc#scalikejdbc_2.12;3.3.5->org.scalikejdbc#scalikejdbc-core_2.12;3.3.5 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -248,8 +318,54 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-dbcp2;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-dbcp2;2.5.0
-[debug] 	found org.apache.commons#commons-dbcp2;2.5.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-dbcp2;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-dbcp2\2.5.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-dbcp2;2.5.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.pom
+[debug] 	public: found md file for org.apache.commons#commons-dbcp2;2.5.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.pom (2.5.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.pom(pom.original) (797ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;47 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;47 {}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-parent\47\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-parent;47
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[debug] 	public: found md file for org.apache.commons#commons-parent;47
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom (47)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;47!commons-parent.pom(pom.original) (1069ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;19 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;19 {}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache\apache\19\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache#apache;19
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom
+[debug] 	public: found md file for org.apache#apache;19
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom (19)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.pom
+[debug] 	[SUCCESSFUL ] org.apache#apache;19!apache.pom(pom.original) (816ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache\apache\19\jars\apache.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/19/apache-19.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache\apache\19\jars\apache.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/apache/19/apache-19.jar
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-parent\47\jars\commons-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache.commons\commons-parent\47\jars\commons-parent.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/commons/commons-parent/47/commons-parent-47.jar
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-dbcp2\2.5.0\jars\commons-dbcp2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar
+[debug] 	found org.apache.commons#commons-dbcp2;2.5.0 in public
 [debug] == resolving dependencies org.scalikejdbc#scalikejdbc-core_2.12;3.3.5->org.apache.commons#commons-dbcp2;2.5.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.commons#commons-dbcp2;2.5.0->org.apache.commons#commons-pool2;2.6.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -265,8 +381,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-pool2;2.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-pool2;2.6.0
-[debug] 	found org.apache.commons#commons-pool2;2.6.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-pool2;2.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-pool2\2.6.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-pool2;2.6.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.pom
+[debug] 	public: found md file for org.apache.commons#commons-pool2;2.6.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.pom (2.6.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-pool2;2.6.0!commons-pool2.pom(pom.original) (851ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;47 {}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-parent;47
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-pool2\2.6.0\jars\commons-pool2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.jar
+[debug] 	found org.apache.commons#commons-pool2;2.6.0 in public
 [debug] == resolving dependencies org.apache.commons#commons-dbcp2;2.5.0->org.apache.commons#commons-pool2;2.6.0 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.commons#commons-dbcp2;2.5.0->commons-logging#commons-logging;1.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -282,8 +412,54 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
-[debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\commons-logging\commons-logging\1.2\ivys\ivy.xml
+[debug] 	local: no ivy file found for commons-logging#commons-logging;1.2
+[debug] 		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[debug] 	public: found md file for commons-logging#commons-logging;1.2
+[debug] 		=> https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom (1.2)
+[debug] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[debug] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.pom(pom.original) (873ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;34 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;34 {}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-parent\34\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-parent;34
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[debug] 	public: found md file for org.apache.commons#commons-parent;34
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom (34)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;34!commons-parent.pom(pom.original) (960ms)
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;13 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;13 {}
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache\apache\13\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache#apache;13
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[debug] 	public: found md file for org.apache#apache;13
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom (13)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[debug] 	[SUCCESSFUL ] org.apache#apache;13!apache.pom(pom.original) (930ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache\apache\13\jars\apache.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache\apache\13\jars\apache.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/apache/13/apache-13.jar
+[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-parent\34\jars\commons-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache.commons\commons-parent\34\jars\commons-parent.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/commons/commons-parent/34/commons-parent-34.jar
+[debug] 		tried C:\Users\User\.ivy2\local\commons-logging\commons-logging\1.2\jars\commons-logging.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[debug] 	found commons-logging#commons-logging;1.2 in public
 [debug] == resolving dependencies org.apache.commons#commons-dbcp2;2.5.0->commons-logging#commons-logging;1.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalikejdbc#scalikejdbc-core_2.12;3.3.5->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -316,8 +492,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.1.2\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom
+[debug] 	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom (1.1.2)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.pom(pom.original) (804ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.1.2\bundles\scala-parser-combinators_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalikejdbc#scalikejdbc-core_2.12;3.3.5->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -341,8 +529,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-collection-compat_2.12;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-collection-compat_2.12;0.1.1
-[debug] 	found org.scala-lang.modules#scala-collection-compat_2.12;0.1.1 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-collection-compat_2.12;0.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.scala-lang.modules\scala-collection-compat_2.12\0.1.1\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang.modules#scala-collection-compat_2.12;0.1.1
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.pom
+[debug] 	public: found md file for org.scala-lang.modules#scala-collection-compat_2.12;0.1.1
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.pom (0.1.1)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.pom(pom.original) (777ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.scala-lang.modules\scala-collection-compat_2.12\0.1.1\bundles\scala-collection-compat_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.jar
+[debug] 	found org.scala-lang.modules#scala-collection-compat_2.12;0.1.1 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalikejdbc#scalikejdbc-core_2.12;3.3.5->org.scala-lang.modules#scala-collection-compat_2.12;0.1.1 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -384,8 +584,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5
-[debug] 	found org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-interpolation_2.12\3.3.5\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.pom
+[debug] 	public: found md file for org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.pom (3.3.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.pom
+[debug] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5!scalikejdbc-interpolation_2.12.pom(pom.original) (957ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-interpolation_2.12\3.3.5\jars\scalikejdbc-interpolation_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.jar
+[debug] 	found org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalikejdbc#scalikejdbc_2.12;3.3.5->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -417,8 +629,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5
-[debug] 	found org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-interpolation-macro_2.12\3.3.5\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.pom
+[debug] 	public: found md file for org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5
+[debug] 		=> https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.pom (3.3.5)
+[debug] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.pom
+[debug] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5!scalikejdbc-interpolation-macro_2.12.pom(pom.original) (767ms)
+[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-interpolation-macro_2.12\3.3.5\jars\scalikejdbc-interpolation-macro_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.jar
+[debug] 	found org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {optional=[compile(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {optional=[compile(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -519,8 +743,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.h2database#h2;1.4.199 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: com.h2database#h2;1.4.199
-[debug] 	found com.h2database#h2;1.4.199 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.h2database#h2;1.4.199 {compile=[default(compile)]}
+[debug] 		tried C:\Users\User\.ivy2\local\com.h2database\h2\1.4.199\ivys\ivy.xml
+[debug] 	local: no ivy file found for com.h2database#h2;1.4.199
+[debug] 		tried https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+[debug] 	public: found md file for com.h2database#h2;1.4.199
+[debug] 		=> https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom (1.4.199)
+[debug] downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+[debug] 	[SUCCESSFUL ] com.h2database#h2;1.4.199!h2.pom(pom.original) (857ms)
+[debug] 		tried C:\Users\User\.ivy2\local\com.h2database\h2\1.4.199\jars\h2.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+[debug] 	found com.h2database#h2;1.4.199 in public
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->com.h2database#h2;1.4.199 [compile->runtime]
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->com.h2database#h2;1.4.199 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->com.h2database#h2;1.4.199 [compile->master]
@@ -528,16 +764,59 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.2.3 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.2.3
-[debug] 	found ch.qos.logback#logback-classic;1.2.3 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: ch.qos.logback#logback-classic;1.2.3 {compile=[default(compile)]}
+[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-classic\1.2.3\ivys\ivy.xml
+[debug] 	local: no ivy file found for ch.qos.logback#logback-classic;1.2.3
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+[debug] 	public: found md file for ch.qos.logback#logback-classic;1.2.3
+[debug] 		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom (1.2.3)
+[debug] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+[debug] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.pom(pom.original) (772ms)
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.2.3 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: ch.qos.logback#logback-parent;1.2.3 {}
+[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-parent\1.2.3\ivys\ivy.xml
+[debug] 	local: no ivy file found for ch.qos.logback#logback-parent;1.2.3
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+[debug] 	public: found md file for ch.qos.logback#logback-parent;1.2.3
+[debug] 		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom (1.2.3)
+[debug] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+[debug] 	[SUCCESSFUL ] ch.qos.logback#logback-parent;1.2.3!logback-parent.pom(pom.original) (804ms)
+[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-parent\1.2.3\jars\logback-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.jar
+[debug] 		tried C:\Users\User\.sbt\preloaded\ch.qos.logback\logback-parent\1.2.3\jars\logback-parent.jar
+[debug] 		tried file:/C:/Users/User/.sbt/preloaded/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.jar
+[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-classic\1.2.3\jars\logback-classic.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[debug] 	found ch.qos.logback#logback-classic;1.2.3 in public
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
 [debug] == resolving dependencies default#mummy-maze_2.12;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
 [debug] == resolving dependencies ch.qos.logback#logback-classic;1.2.3->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}
-[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.2.3
-[debug] 	found ch.qos.logback#logback-core;1.2.3 in sbt-chain
+[debug] sbt-chain: Checking cache for: MergedDescriptors(dependency: ch.qos.logback#logback-core;1.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: ch.qos.logback#logback-core;1.2.3 {test=[runtime(*), master(compile)]})
+[debug] sbt-chain-delegate: Checking cache for: MergedDescriptors(dependency: ch.qos.logback#logback-core;1.2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]},dependency: ch.qos.logback#logback-core;1.2.3 {test=[runtime(*), master(compile)]})
+[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-core\1.2.3\ivys\ivy.xml
+[debug] 	local: no ivy file found for ch.qos.logback#logback-core;1.2.3
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+[debug] 	public: found md file for ch.qos.logback#logback-core;1.2.3
+[debug] 		=> https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom (1.2.3)
+[debug] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+[debug] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.pom(pom.original) (851ms)
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-parent;1.2.3 {}
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-parent;1.2.3
+[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-core\1.2.3\jars\logback-core.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[debug] 	found ch.qos.logback#logback-core;1.2.3 in public
 [debug] == resolving dependencies ch.qos.logback#logback-classic;1.2.3->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
 [debug] == resolving dependencies ch.qos.logback#logback-classic;1.2.3->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
 [debug] == resolving dependencies ch.qos.logback#logback-classic;1.2.3->ch.qos.logback#logback-core;1.2.3 [compile->compile]
@@ -3791,137 +4070,106 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scalafx#scalafx_2.12;8.0.181-R13!scalafx_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 [debug] 	[NOT REQUIRED] org.scalafx#scalafxml-core-sfx8_2.12;0.4!scalafxml-core-sfx8_2.12.jar
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.12;3.3.5!scalikejdbc_2.12.jar
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.199!h2.jar
-[debug] 	[NOT REQUIRED] org.apache.derby#derby;10.14.2.0!derby.jar
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (70ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+[info] downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scalafx#scalafxml-core-macros-sfx8_2.12;0.4!scalafxml-core-macros-sfx8_2.12.jar
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.12;3.3.5!scalikejdbc-core_2.12.jar
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5!scalikejdbc-interpolation_2.12.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5.jar
+[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc_2.12;3.3.5!scalikejdbc_2.12.jar (2221ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5.jar
+[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5!scalikejdbc-interpolation_2.12.jar (3893ms)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle)
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(bundle)
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5!scalikejdbc-interpolation-macro_2.12.jar
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar (2174ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar (5334ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(bundle) (1137ms)
+[debug] 		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle) (2314ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar (1543ms)
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[info] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.jar (1522ms)
 [debug] 	[NOT REQUIRED] org.scalamacros#paradise_2.12.7;2.1.1!paradise_2.12.7.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (72ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (105ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (122ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (148ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (121ms)
-[debug] 	default cache: C:\Users\USER\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 1048ms :: artifacts dl 179ms
-[debug] 	report for default#mummy-maze_2.12;0.1 compile produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-compile.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 runtime produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-runtime.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 test produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-test.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 provided produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-provided.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 optional produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-optional.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 compile-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-compile-internal.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 runtime-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-runtime-internal.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 test-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-test-internal.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 plugin produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-plugin.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 pom produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-pom.xml
-[debug] 	report for default#mummy-maze_2.12;0.1 scala-tool produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-scala-tool.xml
-[debug] 	resolve done (1048ms resolve - 179ms download)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5.jar
+[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5!scalikejdbc-interpolation-macro_2.12.jar (857ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.jar (2375ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5.jar
+[info] 	[SUCCESSFUL ] org.apache.derby#derby;10.14.2.0!derby.jar (11494ms)
+[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-core_2.12;3.3.5!scalikejdbc-core_2.12.jar (11491ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+[info] 	[SUCCESSFUL ] com.h2database#h2;1.4.199!h2.jar (12616ms)
+[debug] :: resolution report :: resolve 29450ms :: artifacts dl 12633ms
+[debug] 	report for default#mummy-maze_2.12;0.1 compile produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-compile.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 runtime produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-runtime.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 test produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-test.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 provided produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-provided.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 optional produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-optional.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 compile-internal produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-compile-internal.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 runtime-internal produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-runtime-internal.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 test-internal produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-test-internal.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 plugin produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-plugin.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 pom produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-pom.xml
+[debug] 	report for default#mummy-maze_2.12;0.1 scala-tool produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze_2.12-scala-tool.xml
+[debug] 	resolve done (29450ms resolve - 12633ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
