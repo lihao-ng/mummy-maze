@@ -1,5 +1,6 @@
 package Components
 
+import java.io.File
 import java.util.{Timer, TimerTask}
 
 import mummyMaze.Main
@@ -7,7 +8,8 @@ import scalafx.scene._
 import scalafx.scene.input._
 import scalafx.Includes._
 import scalafx.animation.AnimationTimer
-import scalafx.scene.control.SplitPane
+import scalafx.scene.control.{Button, Label, SplitPane}
+import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.layout.AnchorPane
 
 class Game() {
@@ -34,6 +36,7 @@ class Game() {
       def run() = {
         println(bonusTime)
         if(bonusTime >= 40) {
+          print("Stop")
           stopTimer(this)
         }else {
           bonusTime += 1
@@ -69,6 +72,44 @@ class Game() {
   def menuComponent = {
     new AnchorPane {
       minWidth = 300.0
+      style = "-fx-background-color: #d89b31;"
+      children = List(
+        new ImageView(new Image(new File("src/main/resources/mummyMaze/images/title/logo.png").toURI.toURL.toString)) {
+          x = 15.0
+          y = 20.0
+          fitWidth = 270.0
+          fitHeight = 170.0
+        },
+        new ImageView(new Image(new File("src/main/resources/mummyMaze/images/title/score.png").toURI.toURL.toString)) {
+          x = 70.0
+          y = 290.0
+          fitWidth = 170.0
+          fitHeight = 80.0
+        },
+        new Label("LEVEL " + currentLevel) {
+          prefWidth = 300.0
+          prefHeight = 60.0
+          layoutX = 0.0
+          layoutY = 200.0
+          style = "-fx-font-family: 'COOPER BLACK'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: extra bold; -fx-alignment: center;"
+        },
+        new Label("1000") {
+          prefWidth = 220.0
+          prefHeight = 60.0
+          layoutX = 40.0
+          layoutY = 370.0
+          style = "-fx-font-family: 'AR BERKLEY'; -fx-wrap-text:true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
+        },
+        new Button {
+          style = " -fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;"
+          prefWidth = 40.0
+          prefHeight = 100.0
+          layoutX = 40.0
+          layoutY = 450.0
+          graphic = new ImageView(new Image(new File("src/main/resources/mummyMaze/images/button/back-icon.png").toURI.toURL.toString))
+          onAction = () => Main.backHomePage()
+        }
+      )
     }
   }
 
@@ -142,5 +183,6 @@ class Game() {
     currentScore = new Score(currentValue + bonusScore + 50)
     bonusTime = 1
     task = loadBonusTimer()
+    stopTimer(task)
   }
 }

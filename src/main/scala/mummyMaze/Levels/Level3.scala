@@ -24,16 +24,16 @@ object Level3 {
     val wall2 = Rectangle(120.0, 565.0, 35.0, 100.0)
     wall2.fill = color
 
-    val wall3 = Rectangle(153.0, 407.0, 35.0, 100.0)
+    val wall3 = Rectangle(153.0, 395.0, 35.0, 100.0)
     wall3.fill = color
 
-    val wall4 = Rectangle(188.0, 472.0, 108.0, 35.0)
+    val wall4 = Rectangle(188.0, 460.0, 108.0, 35.0)
     wall4.fill = color
 
-    val wall5 = Rectangle(153.0, 240.0, 35.0, 100.0)
+    val wall5 = Rectangle(153.0, 240.0, 35.0, 90.0)
     wall5.fill = color
 
-    val wall6 = Rectangle(410.0, 404.0, 35.0, 100.0)
+    val wall6 = Rectangle(410.0, 414.0, 35.0, 90.0)
     wall6.fill = color
 
     val wall7 = Rectangle(437.0, 159.0, 35.0, 100.0)
@@ -45,7 +45,7 @@ object Level3 {
     val wall9 = Rectangle(437.0, 124.0, 128.0, 35.0)
     wall9.fill = color
 
-    val wall10 = Rectangle(519.0, 351.0, 35.0, 100.0)
+    val wall10 = Rectangle(519.0, 355.0, 35.0, 100.0)
     wall10.fill = color
 
     val wall11 = Rectangle(557.0, 254.0, 108.0, 35.0)
