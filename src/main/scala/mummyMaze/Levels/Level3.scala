@@ -1,4 +1,4 @@
-package Maps
+package mummyMaze.Maps
 
 import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle

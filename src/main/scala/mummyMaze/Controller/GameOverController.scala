@@ -11,7 +11,7 @@ class GameOverController(
     ) {
 
 
-    def gameOverSubmit(actionEvent: ActionEvent) = {
+    def gameOverSubmit(actionEvent: ActionEvent): Unit = {
 //        Main.backHomePage()
     }
 

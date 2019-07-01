@@ -1,6 +1,6 @@
 package mummyMaze.Controller
 
-import Components.{HighScoreRecord, Score}
+import mummyMaze.Components.HighScoreRecord
 import scalafx.scene.control.{TableColumn, TableView}
 import mummyMaze.Main
 import scalafx.event.ActionEvent
@@ -17,7 +17,7 @@ class HighScoreRecordController(
   playerNameColumn.cellValueFactory = {_.value.playerName}
   scoreColumn.cellValueFactory = {x => x.value.score.value.v}
 
-  def back(actionEvent: ActionEvent) = {
+  def back(actionEvent: ActionEvent): Unit = {
     Main.backHomePage()
   }
 

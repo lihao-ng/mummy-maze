@@ -1,8 +1,7 @@
-package Maps
+package mummyMaze.Maps
 
 import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle
-
 
 object Level2 {
     val color = Color.rgb(139, 69, 19)

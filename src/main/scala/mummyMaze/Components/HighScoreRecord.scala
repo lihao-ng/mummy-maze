@@ -1,7 +1,7 @@
-package Components
+package mummyMaze.Components
 
-import scalafx.beans.property.{ObjectProperty, StringProperty}
 import Database.Database
+import scalafx.beans.property.{ObjectProperty, StringProperty}
 import scalikejdbc._
 
 import scala.util.Try
@@ -11,7 +11,7 @@ class HighScoreRecord(_playerName: String, _score: Score) extends Database {
   var score = ObjectProperty(_score)
 
   def save() : Any = {
-    if (!(isExist)) {
+    if (!isExist) {
       Try(DB autoCommit { implicit session =>
         sql"""
 					insert into highScoreRecord (playerName, score) values

@@ -1,4 +1,4 @@
-package Components
+package mummyMaze.Components
 
 import scalafx.beans.property.ObjectProperty
 

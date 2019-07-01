@@ -1,4 +1,4 @@
-package Traits
+package mummyMaze.Traits
 
 import scalafx.scene.shape.Rectangle
 

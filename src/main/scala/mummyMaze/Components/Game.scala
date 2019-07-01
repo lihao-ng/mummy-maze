@@ -1,4 +1,4 @@
-package Components
+package mummyMaze.Components
 
 import java.io.File
 import java.util.{Timer, TimerTask}
@@ -24,52 +24,54 @@ class Game() {
 
   var bonusTime = 1
   var bonusTimer = new Timer()
-  var task = loadBonusTimer()
-  bonusTimer.schedule(task, 1000, 1000)
+  var task: TimerTask = loadBonusTimer()
 
-  var scene = createScene
-  var timer = createTimer
-  timer.start()
+  var scene: Scene = createScene
+  var animationTimer: AnimationTimer = createAnimationTimer
+  animationTimer.start()
 
-  def loadBonusTimer()= {
-    new TimerTask {
-      def run() = {
+  def loadBonusTimer(): TimerTask = {
+    val task = new TimerTask {
+      def run(): Unit = {
         println(bonusTime)
         if(bonusTime >= 40) {
-          print("Stop")
-          stopTimer(this)
+          stopTimer(bonusTimer, this)
         }else {
           bonusTime += 1
         }
       }
     }
+
+    bonusTimer.schedule(task, 1000, 1000)
+    task
   }
 
-  def stopTimer(task: TimerTask) = {
+  def stopTimer(bonusTimer: Timer, task: TimerTask): Boolean = {
+    bonusTimer.cancel()
     task.cancel()
   }
 
-  def createScene = {
+  def createScene(): Scene = {
     new Scene() {
       content = new SplitPane() {
         items.add(menuComponent)
-        items.add(map.wallComponent)
+        items.add(map.wallComponent())
         setDividerPosition(0, 0.3)
         prefWidth = 1000
         prefHeight = 700
       }
 
       onKeyPressed = (e:KeyEvent) => {
-        keyValues(e, true)
+        keyValues(e, condition = true)
       }
 
       onKeyReleased = (e:KeyEvent) => {
-        keyValues(e, false)
+        keyValues(e, condition = false)
       }
     }
   }
 
-  def menuComponent = {
+  def menuComponent: AnchorPane = {
     new AnchorPane {
       minWidth = 300.0
       style = "-fx-background-color: #d89b31;"
@@ -82,7 +84,7 @@ class Game() {
         },
         new ImageView(new Image(new File("src/main/resources/mummyMaze/images/title/score.png").toURI.toURL.toString)) {
           x = 70.0
-          y = 290.0
+          y = 270.0
           fitWidth = 170.0
           fitHeight = 80.0
         },
@@ -90,22 +92,22 @@ class Game() {
           prefWidth = 300.0
           prefHeight = 60.0
           layoutX = 0.0
-          layoutY = 200.0
-          style = "-fx-font-family: 'COOPER BLACK'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: extra bold; -fx-alignment: center;"
+          layoutY = 190.0
+          style = "-fx-font-family: 'COOPER BLACK'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
         },
-        new Label("1000") {
+        new Label(currentScore.v.value.toString) {
           prefWidth = 220.0
           prefHeight = 60.0
           layoutX = 40.0
-          layoutY = 370.0
+          layoutY = 340.0
           style = "-fx-font-family: 'AR BERKLEY'; -fx-wrap-text:true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
         },
         new Button {
           style = " -fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;"
           prefWidth = 40.0
-          prefHeight = 100.0
+          prefHeight = 80.0
           layoutX = 40.0
-          layoutY = 450.0
+          layoutY = 420.0
           graphic = new ImageView(new Image(new File("src/main/resources/mummyMaze/images/button/back-icon.png").toURI.toURL.toString))
           onAction = () => Main.backHomePage()
         }
@@ -113,31 +115,31 @@ class Game() {
     }
   }
 
-  def createTimer = {
+  def createAnimationTimer: AnimationTimer = {
     AnimationTimer(t => {
       if(keyLeft) {
         map.player.moveLeft(map.walls)
-        playerMove
+        playerMove()
       }
 
       if(keyRight) {
         map.player.moveRight(map.walls)
-        playerMove
+        playerMove()
       }
 
       if(keyDown) {
         map.player.moveDown(map.walls)
-        playerMove
+        playerMove()
       }
 
       if(keyUp) {
         map.player.moveUp(map.walls)
-        playerMove
+        playerMove()
       }
     })
   }
 
-  def keyValues(e: KeyEvent, condition: Boolean) = {
+  def keyValues(e: KeyEvent, condition: Boolean): Unit = {
     e.code match {
       case KeyCode.Left => keyLeft = condition
       case KeyCode.Right => keyRight = condition
@@ -147,29 +149,29 @@ class Game() {
     }
   }
 
-  def playerMove = {
+  def playerMove(): Unit = {
     map.mummy.track(map.player, map.mummy, map.walls, map.exit)
 
     if(map.player.haveDied(map.player, map.mummy)) {
       println("GAME OVER!")
     }else if(map.player.haveCollideExit(map.exit)) {
       currentLevel += 1
-      switchLevel
+      switchLevel()
     }
   }
 
-  def switchLevel = {
+  def switchLevel(): Unit = {
     if(currentLevel <= Map.levels.length) {
-      getScore
+      getScore()
       map = new Map(new Player, new Mummy, currentLevel)
-      Main.stage.scene = createScene
+      Main.stage.scene = createScene()
     } else {
-      stopTimer(task)
+      stopTimer(bonusTimer, task)
       Main.stage.scene = Main.loadMainMenu
     }
   }
 
-  def getScore = {
+  def getScore(): Unit = {
     val currentValue = currentScore.v.value
     var bonusScore = 0
 
@@ -181,8 +183,10 @@ class Game() {
     }
 
     currentScore = new Score(currentValue + bonusScore + 50)
+
+    stopTimer(bonusTimer, task)
     bonusTime = 1
+    bonusTimer = new Timer()
     task = loadBonusTimer()
-    stopTimer(task)
   }
 }

@@ -1,7 +1,7 @@
 package Database
 
+import mummyMaze.Components.HighScoreRecord
 import scalikejdbc._
-import Components.HighScoreRecord
 
 trait Database {
   val derbyDriverClassname = "org.apache.derby.jdbc.EmbeddedDriver"

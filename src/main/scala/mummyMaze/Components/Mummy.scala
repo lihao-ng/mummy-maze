@@ -1,8 +1,9 @@
-package Components
-import scalafx.scene.image.{Image, ImageView}
+package mummyMaze.Components
+
+import scalafx.scene.image.Image
 import java.io.File
 
-import Traits.TrackMovement
+import mummyMaze.Traits.TrackMovement
 
 class Mummy() extends Character with TrackMovement {
   x = Mummy.x
