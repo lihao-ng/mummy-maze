@@ -1,14 +1,15 @@
-package Components
+package mummyMaze.Components
 
 import java.io.File
 
-import Maps.{Level1, Level2, Level3}
-import scalafx.scene.{Group}
+import mummyMaze.Maps.{Level1, Level2, Level3}
+import scalafx.scene.Group
 import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.layout.AnchorPane
+import scalafx.scene.shape.Rectangle
 
 class Map(val player: Player, val mummy: Mummy, val level: Int) {
-  var walls = loadLevel
+  var walls = loadLevel()
   val exit = new ImageView(new Image(new File("src/main/resources/mummyMaze/images/background/background.jpg").toURI.toURL.toString))
   exit.fitWidth = 35.0
   exit.fitHeight = 67.0
@@ -24,13 +25,13 @@ class Map(val player: Player, val mummy: Mummy, val level: Int) {
     children = walls
   }
 
-  def wallComponent() = {
+  def wallComponent(): AnchorPane = {
     new AnchorPane {
       children = new Group(view, stage, exit, player, mummy)
     }
   }
 
-  def loadLevel= {
+  def loadLevel(): List[Rectangle] = {
     Map.levels(level - 1)
   }
 }

@@ -1,10 +1,7 @@
-package Maps
+package mummyMaze.Maps
 
 import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle
-import java.io.File
-
-import scalafx.scene.image.{Image, ImageView}
 
 object Level1 {
     val color = Color.rgb(139, 69, 19)

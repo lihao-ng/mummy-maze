@@ -1,9 +1,9 @@
-package Components
+package mummyMaze.Components
 
 import scalafx.scene.image.Image
 import java.io.File
 
-import Traits.{Death, KeyMovement}
+import mummyMaze.Traits.{Death, KeyMovement}
 import scalafx.scene.shape.Rectangle
 
 class Player() extends Character with KeyMovement with Death {
@@ -13,24 +13,24 @@ class Player() extends Character with KeyMovement with Death {
   fitHeight = Player.height
   image = Player.imageRight
 
-   def moveLeft(walls: List[Rectangle]) = {
+   def moveLeft(walls: List[Rectangle]): Unit = {
     image = Player.imageLeft
     this.x.value -= Player.step
     if (!noWallCollision(walls)) this.x.value += Player.step
   }
 
-  def moveRight(walls: List[Rectangle]) = {
+  def moveRight(walls: List[Rectangle]): Unit = {
     image = Player.imageRight
     this.x.value += Player.step
     if (!noWallCollision(walls)) this.x.value -= Player.step
   }
 
-  def moveUp(walls: List[Rectangle]) = {
+  def moveUp(walls: List[Rectangle]): Unit = {
     this.y.value -= Player.step
     if (!noWallCollision(walls)) this.y.value += Player.step
   }
 
-  def moveDown(walls: List[Rectangle]) = {
+  def moveDown(walls: List[Rectangle]): Unit = {
     this.y.value += Player.step
     if (!noWallCollision(walls)) this.y.value -= Player.step
   }

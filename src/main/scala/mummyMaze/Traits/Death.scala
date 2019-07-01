@@ -1,5 +1,6 @@
-package Traits
-import Components.{Mummy, Player}
+package mummyMaze.Traits
+
+import mummyMaze.Components.{Mummy, Player}
 
 trait Death {
   def haveDied(player: Player, mummy: Mummy) = {
