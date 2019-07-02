@@ -23,7 +23,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <TableView fx:id="playersHighScoreTable" editable="true" layoutX="121.0" layoutY="200.0" prefHeight="403.0" prefWidth="748.0">
+      <TableView fx:id="playersHighScoreTable" editable="true" layoutX="121.0" layoutY="200.0" prefHeight="350.0" prefWidth="748.0">
         <columns>
           <TableColumn fx:id="playerNameColumn" editable="false" prefWidth="427.0" sortable="false" styleClass="table-view-title" text="Player" />
           <TableColumn fx:id="scoreColumn" prefWidth="368.0" styleClass="table-view-title" text="Score" />
@@ -32,5 +32,6 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
+      <Button layoutX="426.0" layoutY="582.0" mnemonicParsing="false" onAction="#resetRecord" prefHeight="60.0" prefWidth="121.0" text="Reset" />
     </children>
 </AnchorPane>

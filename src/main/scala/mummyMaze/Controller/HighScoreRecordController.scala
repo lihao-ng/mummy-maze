@@ -1,10 +1,12 @@
 package mummyMaze.Controller
 
-import mummyMaze.Components.HighScoreRecord
+import mummyMaze.Components.{HighScoreRecord, Score}
 import scalafx.scene.control.{TableColumn, TableView}
 import mummyMaze.Main
 import scalafx.event.ActionEvent
 import scalafxml.core.macros.sfxml
+import scalikejdbc.DB
+import scalikejdbc._
 
 @sfxml
 class HighScoreRecordController(
@@ -20,4 +22,12 @@ class HighScoreRecordController(
   def back(actionEvent: ActionEvent): Unit = {
     Main.backHomePage()
   }
+
+  def resetRecord: Any = {
+    DB autoCommit (implicit session =>
+      sql"delete from highScoreRecord".update.apply())
+
+    Main.playersHighScore.clear()
+  }
+
 }
