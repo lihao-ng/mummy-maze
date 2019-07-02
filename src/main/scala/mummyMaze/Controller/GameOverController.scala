@@ -23,6 +23,7 @@ class GameOverController(
   }
 
   def gameOverSubmit(actionEvent: ActionEvent) = {
+
     if(Main.playersHighScore.size < 5){
       val highScoreRecord = new HighScoreRecord(playerName.value,score)
       highScoreRecord.save()
@@ -33,6 +34,7 @@ class GameOverController(
       Main.backHomePage()
     }else {
       var lowestScore = Main.playersHighScore.minBy( highscore => highscore.score.value.v.value)
+
       if (score.v.value > lowestScore.score.value.v.value) {
         val delHighScoreRecord = lowestScore
         delHighScoreRecord.delete()
@@ -43,9 +45,9 @@ class GameOverController(
         Main.playersHighScore += highScoreRecord
 
         playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
-
-        Main.backHomePage()
       }
+
+      Main.backHomePage()
     }
   }
 }

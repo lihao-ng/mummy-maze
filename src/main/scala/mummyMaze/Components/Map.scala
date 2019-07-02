@@ -2,7 +2,7 @@ package mummyMaze.Components
 
 import java.io.File
 
-import mummyMaze.Maps.{Level1, Level2, Level3}
+import mummyMaze.Levels.Levels
 import scalafx.scene.Group
 import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.layout.AnchorPane
@@ -37,5 +37,5 @@ class Map(val player: Player, val mummy: Mummy, val level: Int) {
 }
 
 object Map {
-  val levels = Array(Level1.walls, Level2.walls, Level3.walls)
+  val levels = Array(Levels.level1, Levels.level2, Levels.level3)
 }

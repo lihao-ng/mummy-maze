@@ -10,10 +10,12 @@ import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
 import scalafx.collections.ObservableBuffer
+import scalafx.scene.text.Font
 
 
 object Main extends JFXApp {
   Database.setupDB()
+  Font.loadFont(getClass().getResourceAsStream("font/Rakkas-Regular.ttf"), 16)
   val playersHighScore = new ObservableBuffer[HighScoreRecord]()
 
   playersHighScore ++= HighScoreRecord.getAllRecord
@@ -76,6 +78,5 @@ object Main extends JFXApp {
 
   def quitGame(): Unit = {
     System.exit(0)
-    //    stage.close()
   }
 }

@@ -36,7 +36,6 @@ class Game() {
   def loadBonusTimer(): TimerTask = {
     val task = new TimerTask {
       def run(): Unit = {
-        println(bonusTime)
         if(bonusTime >= 40) {
           stopTimer(bonusTimer, this)
         }else {
@@ -79,13 +78,13 @@ class Game() {
       minWidth = 300.0
       style = "-fx-background-color: #d89b31;"
       children = List(
-        new ImageView(new Image(new File("src/main/resources/mummyMaze/images/title/logo.png").toURI.toURL.toString)) {
+        new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/title/logo.png").toString).toString)) {
           x = 15.0
           y = 20.0
           fitWidth = 270.0
           fitHeight = 170.0
         },
-        new ImageView(new Image(new File("src/main/resources/mummyMaze/images/title/score.png").toURI.toURL.toString)) {
+        new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/title/score.png").toString).toString)) {
           x = 70.0
           y = 270.0
           fitWidth = 170.0
@@ -96,14 +95,14 @@ class Game() {
           prefHeight = 60.0
           layoutX = 0.0
           layoutY = 190.0
-          style = "-fx-font-family: 'COOPER BLACK'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
+          style = "-fx-font-family: 'Rakkas'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 50; -fx-font-weight: bold; -fx-text-fill: white; -fx-alignment: center;"
         },
         new Label(currentScore.v.value.toString) {
           prefWidth = 220.0
           prefHeight = 60.0
           layoutX = 40.0
           layoutY = 340.0
-          style = "-fx-font-family: 'AR BERKLEY'; -fx-wrap-text:true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
+          style = "-fx-font-family: 'Rakkas'; -fx-wrap-text:true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-text-fill: white; -fx-alignment: center;"
         },
         new Button {
           style = " -fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;"
@@ -111,7 +110,7 @@ class Game() {
           prefHeight = 80.0
           layoutX = 40.0
           layoutY = 420.0
-          graphic = new ImageView(new Image(new File("src/main/resources/mummyMaze/images/button/back-icon.png").toURI.toURL.toString))
+          graphic = new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/button/back-icon.png").toString).toString))
           onAction = () => {
             stopTimer(bonusTimer, task)
             Main.backHomePage()
