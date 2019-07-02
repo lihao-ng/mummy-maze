@@ -172,6 +172,7 @@ class Game() {
       map = new Map(new Player, new Mummy, currentLevel)
       Main.stage.scene = createScene()
     } else {
+      animationTimer.stop()
       loadGameOver()
     }
   }
