@@ -33,6 +33,6 @@
             <DropShadow />
          </effect>
       </Label>
-      <Button defaultButton="true" layoutX="426.0" layoutY="519.0" mnemonicParsing="false" onAction="#gameOverSubmit" prefHeight="63.0" prefWidth="150.0" style="-fx-background-color: #685D12;" text="SUBMIT" textFill="WHITE" />
+      <Button defaultButton="true" layoutX="426.0" layoutY="519.0" mnemonicParsing="false" onAction="#gameOverSubmit" prefHeight="63.0" prefWidth="150.0" text="SUBMIT" />
    </children>
 </AnchorPane>
