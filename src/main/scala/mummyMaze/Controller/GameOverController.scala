@@ -13,26 +13,30 @@ class GameOverController(
   private val scoreLabel : Label
 ) {
 
-  var score = 12500
+  var score : Score = new Score(0)
 
-  scoreLabel.text = score.toString
   var playerName = playerNameInput.text
+
+  def setScore(_score: Score): Unit ={
+    score = _score
+    scoreLabel.text = score.v.value.toString
+  }
 
   def gameOverSubmit(actionEvent: ActionEvent) = {
     if(Main.playersHighScore.size < 6){
       print("entered")
-      val highScoreRecord = new HighScoreRecord(playerName.value,new Score(score))
+      val highScoreRecord = new HighScoreRecord(playerName.value,score)
       highScoreRecord.save()
       Main.playersHighScore += highScoreRecord
       Main.backHomePage()
     }else {
       var lowestScore = Main.playersHighScore.minBy( highscore => highscore.score.value.v.value)
-      if (score > lowestScore.score.value.v.value) {
+      if (score.v.value > lowestScore.score.value.v.value) {
         val delHighScoreRecord = lowestScore
         delHighScoreRecord.delete()
         Main.playersHighScore -= lowestScore
 
-        val highScoreRecord = new HighScoreRecord(playerName.value,new Score(score))
+        val highScoreRecord = new HighScoreRecord(playerName.value,score)
         highScoreRecord.save()
         Main.playersHighScore += highScoreRecord
 

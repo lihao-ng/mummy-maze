@@ -4,11 +4,7 @@
 		module="mummy-maze-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-<<<<<<< HEAD
-		publication="20190701134159"
-=======
-		publication="20190701132307"
->>>>>>> d72f5307966e67e258c1c4e76b264b40ad2a11b7
+		publication="20190702143231"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
