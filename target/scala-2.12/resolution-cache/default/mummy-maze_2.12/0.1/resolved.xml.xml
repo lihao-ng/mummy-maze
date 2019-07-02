@@ -4,7 +4,11 @@
 		module="mummy-maze_2.12"
 		revision="0.1"
 		status="integration"
+<<<<<<< HEAD
+		publication="20190701134252"
+=======
 		publication="20190701132314"
+>>>>>>> d72f5307966e67e258c1c4e76b264b40ad2a11b7
 	>
 		<description>
 		mummy-maze

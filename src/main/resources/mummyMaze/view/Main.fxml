@@ -28,7 +28,7 @@
                     </image>
                 </ImageView>
          </graphic></Button>
-        <Button fx:id="quitGameID" alignment="CENTER" layoutX="381.0" layoutY="540.0" mnemonicParsing="false" onAction="#quitGame" style="-fx-background-color: transparent;">
+        <Button fx:id="quitGameID" alignment="CENTER" layoutX="388.0" layoutY="540.0" mnemonicParsing="false" onAction="#quitGame" style="-fx-background-color: transparent;">
          <graphic>
                 <ImageView fitHeight="84.0" fitWidth="206.0" pickOnBounds="true" preserveRatio="true">
                     <image>

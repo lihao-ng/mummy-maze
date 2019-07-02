@@ -8,10 +8,10 @@ import scalafxml.core.macros.sfxml
 
 @sfxml
 class HighScoreRecordController(
-  private val playersHighScoreTable : TableView[HighScoreRecord],
-  private val playerNameColumn : TableColumn[HighScoreRecord, String],
-  private val scoreColumn : TableColumn[HighScoreRecord, Int]
-  ) {
+ private val playersHighScoreTable : TableView[HighScoreRecord],
+ private val playerNameColumn : TableColumn[HighScoreRecord, String],
+ private val scoreColumn : TableColumn[HighScoreRecord, Int]
+) {
 
   playersHighScoreTable.items = Main.playersHighScore
   playerNameColumn.cellValueFactory = {_.value.playerName}
@@ -20,13 +20,4 @@ class HighScoreRecordController(
   def back(actionEvent: ActionEvent): Unit = {
     Main.backHomePage()
   }
-
-//  def handleNewRecord(action : ActionEvent) = {
-//    val person = new Person("","")
-//    val okClicked = MainApp.showPersonEditDialog(person);
-//    if (okClicked) {
-//      person.save()
-//      MainApp.personData += person
-//    }
-//  }
 }
