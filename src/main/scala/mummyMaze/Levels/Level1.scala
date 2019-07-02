@@ -1,10 +1,9 @@
-package Maps
+package mummyMaze.Maps
 
 import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle
 
-
-object Level2 {
+object Level1 {
     val color = Color.rgb(139, 69, 19)
 
     val outerWall1 = Rectangle(700.0, 35.0)
@@ -19,40 +18,40 @@ object Level2 {
     val outerWall4 = Rectangle(665.0, 0.0, 35.0, 700.0)
     outerWall4.fill = color
 
-    val wall1 = Rectangle (105.0, 180.0, 250.0, 35.0)
+    val wall1 = Rectangle(152.0, 35.0, 35.0, 100.0)
     wall1.fill = color
 
-    val wall2 = Rectangle (105.0, 100.0, 35.0, 80.0)
+    val wall2 = Rectangle(475.0, 35.0, 35.0, 100.0)
     wall2.fill = color
 
-    val wall3 = Rectangle (212.0, 270.0, 35.0, 120.0)
+    val wall3 = Rectangle(276.0, 100.0, 200.0, 35.0)
     wall3.fill = color
 
-    val wall4 = Rectangle (105.0, 454.0, 35.0, 100.0)
+    val wall4 = Rectangle(35.0, 218.0, 151.0, 35.0)
     wall4.fill = color
 
-    val wall5 = Rectangle (247.0, 355.0, 108.0, 35.0)
+    val wall5 = Rectangle(282.0, 218.0, 147.0, 35.0)
     wall5.fill = color
 
-    val wall6 = Rectangle (230.0, 564.0, 35.0, 100.0)
+    val wall6 = Rectangle(151.0, 253.0, 35.0, 100.0)
     wall6.fill = color
 
-    val wall7 = Rectangle (450.0, 284.0, 35.0, 380.0)
+    val wall7 = Rectangle(394.0, 253.0, 35.0, 100.0)
     wall7.fill = color
 
-    val wall8 = Rectangle (360.0, 504.0, 90.0, 35.0)
+    val wall8 = Rectangle(282.0, 353.0, 288.0, 35.0)
     wall8.fill = color
 
-    val wall9 = Rectangle (485.0, 378.0, 90.0, 35.0)
+    val wall9 = Rectangle(35.0, 457.0, 269.0, 35.0)
     wall9.fill = color
 
-    val wall10 = Rectangle (443.0, 106.0, 108.0, 35.0)
+    val wall10 = Rectangle(151.0, 492.0, 35.0, 100.0)
     wall10.fill = color
 
-    val wall11 = Rectangle (550.0, 106.0, 35.0, 130.0)
+    val wall11 = Rectangle(533.0, 458.0, 35.0, 207.0)
     wall11.fill = color
 
-    val wall12 = Rectangle (550.0, 234.0, 116.0, 35.0)
+    val wall12 = Rectangle(412.0, 458.0, 122.0, 35.0)
     wall12.fill = color
 
     val walls = List(

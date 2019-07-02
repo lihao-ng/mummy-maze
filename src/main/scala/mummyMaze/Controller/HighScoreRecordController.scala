@@ -1,7 +1,6 @@
 package mummyMaze.Controller
 
-import Components.{HighScoreRecord, Score}
-import javax.swing.table
+import mummyMaze.Components.HighScoreRecord
 import scalafx.scene.control.{TableColumn, TableView}
 import mummyMaze.Main
 import scalafx.event.ActionEvent
@@ -12,15 +11,14 @@ class HighScoreRecordController(
 
   private val playersHighScoreTable : TableView[HighScoreRecord],
   private val playerNameColumn : TableColumn[HighScoreRecord, String],
-  private val scoreColumn : TableColumn[HighScoreRecord, Int],
-  private val rankColumn : table.TableColumn
+  private val scoreColumn : TableColumn[HighScoreRecord, Int]
 ) {
 
   playersHighScoreTable.items = Main.playersHighScore
   playerNameColumn.cellValueFactory = {_.value.playerName}
   scoreColumn.cellValueFactory = {x => x.value.score.value.v}
 
-  def back(actionEvent: ActionEvent) = {
+  def back(actionEvent: ActionEvent): Unit = {
     Main.backHomePage()
   }
 }

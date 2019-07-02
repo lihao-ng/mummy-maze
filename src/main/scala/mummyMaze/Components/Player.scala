@@ -1,9 +1,9 @@
-package Components
+package mummyMaze.Components
 
 import scalafx.scene.image.Image
 import java.io.File
 
-import Traits.{Death, KeyMovement}
+import mummyMaze.Traits.{Death, KeyMovement}
 import scalafx.scene.shape.Rectangle
 
 class Player() extends Character with KeyMovement with Death {
@@ -13,24 +13,24 @@ class Player() extends Character with KeyMovement with Death {
   fitHeight = Player.height
   image = Player.imageRight
 
-   def moveLeft(walls: List[Rectangle]) = {
+   def moveLeft(walls: List[Rectangle]): Unit = {
     image = Player.imageLeft
     this.x.value -= Player.step
     if (!noWallCollision(walls)) this.x.value += Player.step
   }
 
-  def moveRight(walls: List[Rectangle]) = {
+  def moveRight(walls: List[Rectangle]): Unit = {
     image = Player.imageRight
     this.x.value += Player.step
     if (!noWallCollision(walls)) this.x.value -= Player.step
   }
 
-  def moveUp(walls: List[Rectangle]) = {
+  def moveUp(walls: List[Rectangle]): Unit = {
     this.y.value -= Player.step
     if (!noWallCollision(walls)) this.y.value += Player.step
   }
 
-  def moveDown(walls: List[Rectangle]) = {
+  def moveDown(walls: List[Rectangle]): Unit = {
     this.y.value += Player.step
     if (!noWallCollision(walls)) this.y.value -= Player.step
   }
@@ -42,6 +42,6 @@ object Player {
   val width = 55
   val height = 55
   val step = 4
-  val imageLeft = new Image(new File("src/main/resources/mummyMaze/images/player/player_left.png").toURI.toURL.toString)
-  val imageRight = new Image(new File("src/main/resources/mummyMaze/images/player/player_right.png").toURI.toURL.toString)
+  val imageLeft = new Image(new File(getClass.getResource("/mummyMaze/images/player/player_left.png").toString).toString)
+  val imageRight = new Image(new File(getClass.getResource("/mummyMaze/images/player/player_right.png").toString).toString)
 }

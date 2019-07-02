@@ -1,8 +1,6 @@
 package mummyMaze
 
-import java.io.File
-
-import Components.{Game, HighScoreRecord, Score}
+import mummyMaze.Components.{Game, HighScoreRecord}
 import Database.Database
 import scalafx.Includes._
 import scalafx.scene.media.{Media, MediaPlayer}
@@ -15,7 +13,6 @@ import scalafx.collections.ObservableBuffer
 
 
 object Main extends JFXApp {
-
   Database.setupDB()
   val playersHighScore = new ObservableBuffer[HighScoreRecord]()
 
@@ -27,31 +24,35 @@ object Main extends JFXApp {
   loader.load()
   val roots = loader.getRoot[jfxs.layout.AnchorPane]
 
-//  val music = playMusic
-//  music.cycleCount = MediaPlayer.Indefinite
-//  music.play()
+  val music = playMusic()
+  music.cycleCount = MediaPlayer.Indefinite
+  music.play()
 
   stage = new PrimaryStage {
+    maxWidth = 1025
+    minWidth = 1025
+    maxHeight = 748
+    minHeight = 748
     title = "MummyMaze"
-    scene = loadMainMenu
+    scene = loadMainMenu()
   }
 
-  def loadMainMenu = {
+  def loadMainMenu(): Scene = {
     new Scene {
       content = roots
     }
   }
 
-  def changeScreen = {
+  def changeScreen(): Unit = {
     val game = new Game()
     stage.scene = game.scene
   }
 
-  def playMusic = {
-    new MediaPlayer(new Media(new File("src/main/resources/mummyMaze/musics/background_music.wav").toURI.toURL.toString))
+  def playMusic(): MediaPlayer = {
+    new MediaPlayer(new Media(getClass.getResource("musics/background_music.wav").toString))
   }
 
-  def backHomePage():Unit ={
+  def backHomePage(): Unit = {
     val resource = getClass.getResource("view/Main.fxml")
     val loader = new FXMLLoader(resource, NoDependencyResolver)
     loader.load()
@@ -59,7 +60,7 @@ object Main extends JFXApp {
     stage.scene().setRoot(roots2)
   }
 
-  def viewHighScore():Unit ={
+  def viewHighScore(): Unit = {
     val resource = getClass.getResource("view/HighScore.fxml")
     val loader = new FXMLLoader(resource, NoDependencyResolver)
     loader.load()
@@ -68,18 +69,13 @@ object Main extends JFXApp {
     stage.scene().setRoot(roots2)
   }
 
-  def startGame():Unit ={
-    val resource = getClass.getResource("view/GameOver.fxml")
-    val loader = new FXMLLoader(resource, NoDependencyResolver)
-    loader.load()
-    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
-    roots2.stylesheets = List(getClass.getResource("css/GameOver.css").toExternalForm)
-    stage.scene().setRoot(roots2)
-//    val game = new Game()
-//    stage.scene = game.scene
+  def startGame(): Unit = {
+    val game = new Game()
+    stage.scene = game.scene
   }
 
-  def quitGame():Unit ={
-    stage.close()
+  def quitGame(): Unit = {
+    System.exit(0)
+//    stage.close()
   }
 }

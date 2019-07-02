@@ -1,8 +1,9 @@
-package Components
-import scalafx.scene.image.{Image, ImageView}
+package mummyMaze.Components
+
+import scalafx.scene.image.Image
 import java.io.File
 
-import Traits.TrackMovement
+import mummyMaze.Traits.TrackMovement
 
 class Mummy() extends Character with TrackMovement {
   x = Mummy.x
@@ -18,6 +19,6 @@ object Mummy {
   val width = 55
   val height = 55
   val step = 3
-  val imageLeft = new Image(new File("src/main/resources/mummyMaze/images/mummy/mummy_left.png").toURI.toURL.toString)
-  val imageRight = new Image(new File("src/main/resources/mummyMaze/images/mummy/mummy_right.png").toURI.toURL.toString)
+  val imageLeft = new Image(new File(getClass.getResource("/mummyMaze/images/mummy/mummy_left.png").toString).toString)
+  val imageRight = new Image(new File(getClass.getResource("/mummyMaze/images/mummy/mummy_right.png").toString).toString)
 }

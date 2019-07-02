@@ -1,6 +1,6 @@
 package mummyMaze.Controller
 
-import Components.{HighScoreRecord, Score}
+import mummyMaze.Components.{HighScoreRecord, Score}
 import mummyMaze.Main
 import mummyMaze.Main.playersHighScore
 import scalafx.event.ActionEvent
@@ -17,7 +17,6 @@ class GameOverController(
 
     scoreLabel.text = score.toString
     var playerName = playerNameInput.text
-
 
     def gameOverSubmit(actionEvent: ActionEvent) = {
         if(Main.playersHighScore.size < 6){

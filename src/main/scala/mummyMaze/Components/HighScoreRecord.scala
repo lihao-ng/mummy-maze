@@ -1,7 +1,7 @@
-package Components
+package mummyMaze.Components
 
-import scalafx.beans.property.{ObjectProperty, StringProperty}
 import Database.Database
+import scalafx.beans.property.{ObjectProperty, StringProperty}
 import scalikejdbc._
 
 import scala.util.Try

@@ -1,6 +1,6 @@
-package Traits
+package mummyMaze.Traits
 
-import Components.{Mummy, Player}
+import mummyMaze.Components.{Mummy, Player}
 import scalafx.scene.image.ImageView
 import scalafx.scene.shape.Rectangle
 
