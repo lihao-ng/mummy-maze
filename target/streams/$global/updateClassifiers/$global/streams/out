@@ -100,21 +100,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.apache.derby#derby;10.14.2.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
-[debug] sbt-chain: module revision found in cache: org.apache.derby#derby;10.14.2.0
-[debug] 	found org.apache.derby#derby;10.14.2.0 in sbt-chain
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5
@@ -327,18 +312,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
@@ -516,18 +489,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
@@ -709,18 +670,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
@@ -898,18 +847,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
@@ -1087,18 +1024,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test->compile]
@@ -1283,18 +1208,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
@@ -1474,18 +1387,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile-internal->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile-internal->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile-internal->compile]
@@ -1667,18 +1568,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
@@ -1856,18 +1745,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
@@ -2046,18 +1923,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime-internal->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime-internal->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime-internal->compile]
@@ -2240,18 +2105,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [compile->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [compile->compile]
@@ -2429,18 +2282,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [runtime->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [runtime->compile]
@@ -2618,18 +2459,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test->compile]
@@ -2809,18 +2638,6 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->default]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->default(compile)]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->runtime]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->compile]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->master]
-[debug] == resolving dependencies default#mummy-maze$sources;0.1->org.apache.derby#derby;10.14.2.0 [test-internal->master]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test-internal->compile]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5 [test-internal->compile]
@@ -3036,134 +2853,134 @@
 [debug] == resolving dependencies default#mummy-maze$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\User\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.1.2\srcs\scala-parser-combinators_2.12-sources.jar
-[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-core_2.12\3.3.5\srcs\scalikejdbc-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
-[debug] 		tried C:\Users\User\.ivy2\local\commons-logging\commons-logging\1.2\srcs\commons-logging-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5-sources.jar
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.12;3.3.5!scalikejdbc-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalafx#scalafxml-core-sfx8_2.12;0.4!scalafxml-core-sfx8_2.12.jar(src)
-[debug] 		tried C:\Users\User\.ivy2\local\org.scala-lang.modules\scala-collection-compat_2.12\0.1.1\srcs\scala-collection-compat_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1-sources.jar
+[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
 [debug] 	[NOT REQUIRED] org.scalafx#scalafxml-core-macros-sfx8_2.12;0.4!scalafxml-core-macros-sfx8_2.12.jar(src)
-[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-classic\1.2.3\srcs\logback-classic-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
-[debug] 		tried C:\Users\User\.ivy2\local\org.slf4j\slf4j-api\1.7.25\srcs\slf4j-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
-[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/0.1.1/scala-collection-compat_2.12-0.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src) (1286ms)
-[debug] 		tried C:\Users\User\.ivy2\local\org.apache.derby\derby\10.14.2.0\srcs\derby-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.jar(src) (1469ms)
-[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-interpolation_2.12\3.3.5\srcs\scalikejdbc-interpolation_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(src) (1489ms)
-[debug] 		tried C:\Users\User\.ivy2\local\com.h2database\h2\1.4.199\srcs\h2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0-sources.jar
-[debug] 		tried C:\Users\User\.sbt\preloaded\org.apache.derby\derby\10.14.2.0\srcs\derby-sources.jar
-[debug] 		tried file:/C:/Users/User/.sbt/preloaded/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] org.apache.derby#derby;10.14.2.0!derby.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn] ==== public: tried
-[warn] ==== local-preloaded-ivy: tried
-[warn]   C:\Users\User\.sbt\preloaded\org.apache.derby\derby\10.14.2.0\srcs\derby-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:/C:/Users/User/.sbt/preloaded/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0-sources.jar
-[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc_2.12\3.3.5\srcs\scalikejdbc_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
-[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src) (1853ms)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
-[debug] 		tried C:\Users\User\.ivy2\local\org.scalikejdbc\scalikejdbc-interpolation-macro_2.12\3.3.5\srcs\scalikejdbc-interpolation-macro_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.12/3.3.5/scalikejdbc-core_2.12-3.3.5-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
-[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-core_2.12;3.3.5!scalikejdbc-core_2.12.jar(src) (2391ms)
+[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\USER\.ivy2
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (46ms)
+[debug] 	default cache: C:\Users\USER\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (44ms)
+[debug] 	default cache: C:\Users\USER\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\USER\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5!scalikejdbc-interpolation_2.12.jar(src)
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (107ms)
+[debug] 	default cache: C:\Users\USER\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/USER/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (130ms)
+[debug] 	default cache: C:\Users\USER\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (95ms)
+[debug] 	default cache: C:\Users\USER\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.12;3.3.5!scalikejdbc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5!scalikejdbc-interpolation-macro_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalafx#scalafx_2.12;8.0.181-R13!scalafx_2.12.jar(src)
-[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-pool2\2.6.0\srcs\commons-pool2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src) (2380ms)
-[debug] 		tried C:\Users\User\.ivy2\local\ch.qos.logback\logback-core\1.2.3\srcs\logback-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.12/3.3.5/scalikejdbc-interpolation_2.12-3.3.5-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.12/3.3.5/scalikejdbc_2.12-3.3.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.5!scalikejdbc-interpolation_2.12.jar(src) (1087ms)
-[debug] 		tried C:\Users\User\.ivy2\local\org.apache.commons\commons-dbcp2\2.5.0\srcs\commons-dbcp2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0-sources.jar ...
-[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc_2.12;3.3.5!scalikejdbc_2.12.jar(src) (1085ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src)
+[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.199!h2.jar(src)
+[debug] settings loaded (148ms)
+[debug] 	default cache: C:\Users\USER\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalamacros#paradise_2.12.7;2.1.1!paradise_2.12.7.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.12/3.3.5/scalikejdbc-interpolation-macro_2.12-3.3.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.5!scalikejdbc-interpolation-macro_2.12.jar(src) (968ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src) (1329ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.0/commons-pool2-2.6.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src) (1563ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
-[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src) (1790ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
-[info] 	[SUCCESSFUL ] com.h2database#h2;1.4.199!h2.jar(src) (5378ms)
-[debug] :: resolution report :: resolve 771ms :: artifacts dl 6881ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.apache.derby#derby;10.14.2.0!derby.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for default#mummy-maze$sources;0.1 compile produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile.xml
-[debug] 	report for default#mummy-maze$sources;0.1 runtime produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime.xml
-[debug] 	report for default#mummy-maze$sources;0.1 test produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test.xml
-[debug] 	report for default#mummy-maze$sources;0.1 provided produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-provided.xml
-[debug] 	report for default#mummy-maze$sources;0.1 optional produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-optional.xml
-[debug] 	report for default#mummy-maze$sources;0.1 compile-internal produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile-internal.xml
-[debug] 	report for default#mummy-maze$sources;0.1 runtime-internal produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime-internal.xml
-[debug] 	report for default#mummy-maze$sources;0.1 test-internal produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test-internal.xml
-[debug] 	report for default#mummy-maze$sources;0.1 plugin produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-plugin.xml
-[debug] 	report for default#mummy-maze$sources;0.1 pom produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-pom.xml
-[debug] 	report for default#mummy-maze$sources;0.1 scala-tool produced in C:\Users\User\Documents\BCS\SEM 5\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-scala-tool.xml
-[debug] 	resolve done (771ms resolve - 6881ms download)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
+[debug] :: resolution report :: resolve 3233ms :: artifacts dl 206ms
+[debug] 	report for default#mummy-maze$sources;0.1 compile produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile.xml
+[debug] 	report for default#mummy-maze$sources;0.1 runtime produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime.xml
+[debug] 	report for default#mummy-maze$sources;0.1 test produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test.xml
+[debug] 	report for default#mummy-maze$sources;0.1 provided produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-provided.xml
+[debug] 	report for default#mummy-maze$sources;0.1 optional produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-optional.xml
+[debug] 	report for default#mummy-maze$sources;0.1 compile-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-compile-internal.xml
+[debug] 	report for default#mummy-maze$sources;0.1 runtime-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-runtime-internal.xml
+[debug] 	report for default#mummy-maze$sources;0.1 test-internal produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-test-internal.xml
+[debug] 	report for default#mummy-maze$sources;0.1 plugin produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-plugin.xml
+[debug] 	report for default#mummy-maze$sources;0.1 pom produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-pom.xml
+[debug] 	report for default#mummy-maze$sources;0.1 scala-tool produced in C:\xampp\htdocs\mummy-maze\target\scala-2.12\resolution-cache\reports\default-mummy-maze$sources-scala-tool.xml
+[debug] 	resolve done (3233ms resolve - 206ms download)

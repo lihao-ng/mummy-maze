@@ -20,13 +20,7 @@ object Main extends JFXApp {
   val playersHighScore = new ObservableBuffer[HighScoreRecord]()
 
   playersHighScore ++= HighScoreRecord.getAllRecord
-
-//  val playersHighScore = new ObservableBuffer[HighScoreRecord]()
-  playersHighScore += new HighScoreRecord("Hans", new Score(1000))
-  playersHighScore += new HighScoreRecord("Ben", new Score(1000))
-  playersHighScore += new HighScoreRecord("Daniel", new Score(1000))
-  playersHighScore += new HighScoreRecord("Nicholas", new Score(1000))
-  playersHighScore += new HighScoreRecord("James", new Score(1000))
+  playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
 
   val rootResource = getClass.getResource("view/Main.fxml")
   val loader = new FXMLLoader(rootResource, NoDependencyResolver)
@@ -75,8 +69,14 @@ object Main extends JFXApp {
   }
 
   def startGame():Unit ={
-    val game = new Game()
-    stage.scene = game.scene
+    val resource = getClass.getResource("view/GameOver.fxml")
+    val loader = new FXMLLoader(resource, NoDependencyResolver)
+    loader.load()
+    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
+    roots2.stylesheets = List(getClass.getResource("css/GameOver.css").toExternalForm)
+    stage.scene().setRoot(roots2)
+//    val game = new Game()
+//    stage.scene = game.scene
   }
 
   def quitGame():Unit ={

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Rakkas&display=swap');
+
+.background {
+    -fx-background-color: #d89b31;
+    -fx-font-family: "Rakkas";
+}
+
+.text-field{
+   -fx-font-size: 23;
+   -fx-padding: 2,2,2,2;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+}
+
+.button{
+   -fx-font-size: 19;
+}
+
+.label{
+    -fx-font-family: "Rakkas";
+    -fx-font-size: 43;
+    -fx-font-color: white;
+}
