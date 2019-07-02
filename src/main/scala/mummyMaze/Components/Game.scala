@@ -11,6 +11,9 @@ import scalafx.animation.AnimationTimer
 import scalafx.scene.control.{Button, Label, SplitPane}
 import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.layout.AnchorPane
+import scalafxml.core.{FXMLLoader, NoDependencyResolver}
+import javafx.{scene => jfxs}
+import mummyMaze.Controller.GameOverController
 
 class Game() {
   var keyLeft = false
@@ -156,7 +159,7 @@ class Game() {
     map.mummy.track(map.player, map.mummy, map.walls, map.exit)
 
     if(map.player.haveDied(map.player, map.mummy)) {
-      println("GAME OVER!")
+      loadGameOver()
     }else if(map.player.haveCollideExit(map.exit)) {
       currentLevel += 1
       switchLevel()
@@ -164,13 +167,13 @@ class Game() {
   }
 
   def switchLevel(): Unit = {
+    getScore()
+
     if(currentLevel <= Map.levels.length) {
-      getScore()
       map = new Map(new Player, new Mummy, currentLevel)
       Main.stage.scene = createScene()
     } else {
-      stopTimer(bonusTimer, task)
-      Main.stage.scene = Main.loadMainMenu
+      loadGameOver()
     }
   }
 
@@ -191,5 +194,18 @@ class Game() {
     bonusTime = 1
     bonusTimer = new Timer()
     task = loadBonusTimer()
+  }
+
+  def loadGameOver(): Unit = {
+    stopTimer(bonusTimer, task)
+    val resource = getClass.getResource("/mummyMaze/view/GameOver.fxml")
+    val loader = new FXMLLoader(resource, NoDependencyResolver)
+    loader.load()
+    val controller = loader.getController[GameOverController#Controller]
+
+    controller.setScore(currentScore)
+    val roots = loader.getRoot[jfxs.layout.AnchorPane]
+    roots.stylesheets = List(getClass.getResource("/mummyMaze/css/GameOver.css").toExternalForm)
+    Main.stage.scene().setRoot(roots)
   }
 }
