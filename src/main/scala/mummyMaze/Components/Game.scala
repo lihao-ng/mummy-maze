@@ -96,14 +96,14 @@ class Game() {
           prefHeight = 60.0
           layoutX = 0.0
           layoutY = 190.0
-          style = "-fx-font-family: 'COOPER BLACK'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
+          style = "-fx-font-family: 'COOPER BLACK'; -fx-wrap-text: true; -fx-text-alignment: center; -fx-font-size: 50; -fx-font-weight: bold; -fx-text-fill: white; -fx-alignment: center;"
         },
         new Label(currentScore.v.value.toString) {
           prefWidth = 220.0
           prefHeight = 60.0
           layoutX = 40.0
           layoutY = 340.0
-          style = "-fx-font-family: 'AR BERKLEY'; -fx-wrap-text:true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-alignment: center;"
+          style = "-fx-font-family: 'AR BERKLEY'; -fx-wrap-text:true; -fx-text-alignment: center; -fx-font-size: 60; -fx-font-weight: bold; -fx-text-fill: white; -fx-alignment: center;"
         },
         new Button {
           style = " -fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;"
