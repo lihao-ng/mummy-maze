@@ -8,10 +8,9 @@ import scalafxml.core.macros.sfxml
 
 @sfxml
 class HighScoreRecordController(
-
-  private val playersHighScoreTable : TableView[HighScoreRecord],
-  private val playerNameColumn : TableColumn[HighScoreRecord, String],
-  private val scoreColumn : TableColumn[HighScoreRecord, Int]
+ private val playersHighScoreTable : TableView[HighScoreRecord],
+ private val playerNameColumn : TableColumn[HighScoreRecord, String],
+ private val scoreColumn : TableColumn[HighScoreRecord, Int]
 ) {
 
   playersHighScoreTable.items = Main.playersHighScore

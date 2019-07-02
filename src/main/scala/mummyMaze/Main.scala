@@ -76,6 +76,6 @@ object Main extends JFXApp {
 
   def quitGame(): Unit = {
     System.exit(0)
-//    stage.close()
+    //    stage.close()
   }
 }
