@@ -30,11 +30,15 @@ object Main extends JFXApp {
   loader.load()
   val roots = loader.getRoot[jfxs.layout.AnchorPane]
 
-  val music = playMusic
+  val music = playMusic()
   music.cycleCount = MediaPlayer.Indefinite
   music.play()
 
   stage = new PrimaryStage {
+    maxWidth = 1025
+    minWidth = 1025
+    maxHeight = 748
+    minHeight = 748
     title = "MummyMaze"
     scene = loadMainMenu()
   }

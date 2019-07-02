@@ -109,7 +109,10 @@ class Game() {
           layoutX = 40.0
           layoutY = 420.0
           graphic = new ImageView(new Image(new File("src/main/resources/mummyMaze/images/button/back-icon.png").toURI.toURL.toString))
-          onAction = () => Main.backHomePage()
+          onAction = () => {
+            stopTimer(bonusTimer, task)
+            Main.backHomePage()
+          }
         }
       )
     }
