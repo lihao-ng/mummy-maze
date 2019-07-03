@@ -14,7 +14,6 @@ class GameOverController(
 ) {
 
   var score : Score = new Score(0)
-
   var playerName = playerNameInput.text
 
   def setScore(_score: Score): Unit ={
@@ -23,31 +22,28 @@ class GameOverController(
   }
 
   def gameOverSubmit(actionEvent: ActionEvent) = {
+    if(playerName.value == "") playerName.value = "Unknown"
 
     if(Main.playersHighScore.size < 5){
-      val highScoreRecord = new HighScoreRecord(playerName.value,score)
-      highScoreRecord.save()
-      Main.playersHighScore += highScoreRecord
-
-      playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
-
-      Main.backHomePage()
+      saveHighScore()
     }else {
-      var lowestScore = Main.playersHighScore.minBy( highscore => highscore.score.value.v.value)
+      val lowestScore = Main.playersHighScore.minBy( highscore => highscore.score.value.v.value)
 
       if (score.v.value > lowestScore.score.value.v.value) {
         val delHighScoreRecord = lowestScore
         delHighScoreRecord.delete()
         Main.playersHighScore -= lowestScore
-
-        val highScoreRecord = new HighScoreRecord(playerName.value,score)
-        highScoreRecord.save()
-        Main.playersHighScore += highScoreRecord
-
-        playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
+        saveHighScore()
       }
-
-      Main.backHomePage()
     }
+
+    Main.backHomePage()
+  }
+
+  def saveHighScore(): Unit = {
+    val highScoreRecord = new HighScoreRecord(playerName.value, score)
+    Main.playersHighScore += highScoreRecord
+    highScoreRecord.save()
+    playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
   }
 }

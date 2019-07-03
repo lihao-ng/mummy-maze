@@ -29,7 +29,7 @@ class Game() {
   var bonusTimer = new Timer()
   var task: TimerTask = loadBonusTimer()
 
-  var scene: Scene = createScene
+  var scene: Scene = createScene()
   var animationTimer: AnimationTimer = createAnimationTimer
   animationTimer.start()
 

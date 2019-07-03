@@ -7,8 +7,8 @@ import mummyMaze.Traits.{Death, KeyMovement}
 import scalafx.scene.shape.Rectangle
 
 class Player() extends Character with KeyMovement with Death {
-  x = Player.x
-  y = Player.y
+  x = Player.posX
+  y = Player.posY
   fitWidth = Player.width
   fitHeight = Player.height
   image = Player.imageRight
@@ -37,8 +37,8 @@ class Player() extends Character with KeyMovement with Death {
 }
 
 object Player {
-  val x = 370
-  val y = 150
+  val posX = 370
+  val posY = 150
   val width = 55
   val height = 55
   val step = 4
