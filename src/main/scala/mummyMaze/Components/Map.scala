@@ -10,7 +10,7 @@ import scalafx.scene.shape.Rectangle
 
 class Map(val player: Player, val mummy: Mummy, val level: Int) {
   var walls = loadLevel()
-  val exit = new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/background/Stairs.jpg").toString).toString))
+  val exit = new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/background/StairsFlip.jpg").toString).toString))
   exit.fitWidth = 35.0
   exit.fitHeight = 67.0
   exit.setX(0.0)
