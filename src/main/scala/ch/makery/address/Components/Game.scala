@@ -1,6 +1,5 @@
 package ch.makery.address.Components
 
-import java.io.File
 import java.util.{Timer, TimerTask}
 
 import ch.makery.address.Controller.GameOverController
@@ -78,13 +77,13 @@ class Game() {
       minWidth = 300.0
       style = "-fx-background-color: #d89b31;"
       children = List(
-        new ImageView(new Image(new File(Main.getClass.getResource("images/title/logo.png").toString).toString)) {
+        new ImageView(Main.getClass.getResource("images/title/logo.png").toString) {
           x = 15.0
           y = 20.0
           fitWidth = 270.0
           fitHeight = 170.0
         },
-        new ImageView(new Image(new File(Main.getClass.getResource("images/title/score.png").toString).toString)) {
+        new ImageView(Main.getClass.getResource("images/title/score.png").toString) {
           x = 70.0
           y = 270.0
           fitWidth = 170.0
@@ -110,7 +109,7 @@ class Game() {
           prefHeight = 80.0
           layoutX = 40.0
           layoutY = 420.0
-          graphic = new ImageView(new Image(new File(Main.getClass.getResource("images/button/back-icon.png").toString).toString))
+          graphic = new ImageView(Main.getClass.getResource("images/button/back-icon.png").toString)
           onAction = () => {
             stopTimer(bonusTimer, task)
             animationTimer.stop()
