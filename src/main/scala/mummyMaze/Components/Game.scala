@@ -113,6 +113,7 @@ class Game() {
           graphic = new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/button/back-icon.png").toString).toString))
           onAction = () => {
             stopTimer(bonusTimer, task)
+            animationTimer.stop()
             Main.backHomePage()
           }
         }
