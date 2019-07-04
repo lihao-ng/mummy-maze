@@ -20,6 +20,6 @@ object Mummy {
   val width = 55
   val height = 55
   val step = 3
-  val imageLeft = new Image(new File(Main.getClass.getResource("images/mummy/mummy_left.png").toString).toString)
-  val imageRight = new Image(new File(Main.getClass.getResource("images/mummy/mummy_right.png").toString).toString)
+  val imageLeft = new Image(Main.getClass.getResource("images/mummy/mummy_left.png").toString)
+  val imageRight = new Image(Main.getClass.getResource("images/mummy/mummy_right.png").toString)
 }

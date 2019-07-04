@@ -10,6 +10,8 @@ import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
 import scalafx.collections.ObservableBuffer
+import scalafx.scene.paint.Color
+import scalafx.scene.shape.Rectangle
 import scalafx.scene.text.Font
 
 object Main extends JFXApp {
