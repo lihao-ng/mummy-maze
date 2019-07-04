@@ -1,4 +1,4 @@
-package mummyMaze.Traits
+package ch.makery.address.Traits
 
 import scalafx.scene.shape.Rectangle
 

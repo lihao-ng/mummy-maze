@@ -1,7 +1,7 @@
-package mummyMaze
+package ch.makery.address
 
-import mummyMaze.Components.{Game, HighScoreRecord}
 import Database.Database
+import ch.makery.address.Components.{Game, HighScoreRecord}
 import scalafx.Includes._
 import scalafx.scene.media.{Media, MediaPlayer}
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
@@ -11,7 +11,6 @@ import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
 import scalafx.collections.ObservableBuffer
 import scalafx.scene.text.Font
-
 
 object Main extends JFXApp {
   Database.setupDB()

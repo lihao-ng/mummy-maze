@@ -1,9 +1,10 @@
-package mummyMaze.Components
+package ch.makery.address.Components
 
 import java.io.File
 import java.util.{Timer, TimerTask}
 
-import mummyMaze.Main
+import ch.makery.address.Controller.GameOverController
+import ch.makery.address.Main
 import scalafx.scene._
 import scalafx.scene.input._
 import scalafx.Includes._
@@ -13,7 +14,6 @@ import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.layout.AnchorPane
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
 import javafx.{scene => jfxs}
-import mummyMaze.Controller.GameOverController
 
 class Game() {
   var keyLeft = false
@@ -78,13 +78,13 @@ class Game() {
       minWidth = 300.0
       style = "-fx-background-color: #d89b31;"
       children = List(
-        new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/title/logo.png").toString).toString)) {
+        new ImageView(new Image(new File(Main.getClass.getResource("images/title/logo.png").toString).toString)) {
           x = 15.0
           y = 20.0
           fitWidth = 270.0
           fitHeight = 170.0
         },
-        new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/title/score.png").toString).toString)) {
+        new ImageView(new Image(new File(Main.getClass.getResource("images/title/score.png").toString).toString)) {
           x = 70.0
           y = 270.0
           fitWidth = 170.0
@@ -110,7 +110,7 @@ class Game() {
           prefHeight = 80.0
           layoutX = 40.0
           layoutY = 420.0
-          graphic = new ImageView(new Image(new File(getClass.getResource("/mummyMaze/images/button/back-icon.png").toString).toString))
+          graphic = new ImageView(new Image(new File(Main.getClass.getResource("images/button/back-icon.png").toString).toString))
           onAction = () => {
             stopTimer(bonusTimer, task)
             animationTimer.stop()
@@ -199,14 +199,14 @@ class Game() {
 
   def loadGameOver(): Unit = {
     stopTimer(bonusTimer, task)
-    val resource = getClass.getResource("/mummyMaze/view/GameOver.fxml")
+    val resource = Main.getClass.getResource("view/GameOver.fxml")
     val loader = new FXMLLoader(resource, NoDependencyResolver)
     loader.load()
     val controller = loader.getController[GameOverController#Controller]
 
     controller.setScore(currentScore)
     val roots = loader.getRoot[jfxs.layout.AnchorPane]
-    roots.stylesheets = List(getClass.getResource("/mummyMaze/css/GameOver.css").toExternalForm)
+    roots.stylesheets = List(Main.getClass.getResource("css/GameOver.css").toExternalForm)
     Main.stage.scene().setRoot(roots)
   }
 }

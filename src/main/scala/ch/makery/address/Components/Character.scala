@@ -1,4 +1,4 @@
-package mummyMaze.Components
+package ch.makery.address.Components
 
 import scalafx.scene.image.ImageView
 import scalafx.scene.shape.Rectangle

@@ -1,12 +1,10 @@
-package mummyMaze.Controller
+package ch.makery.address.Controller
 
-import mummyMaze.Components.{HighScoreRecord, Score}
+import ch.makery.address.Components.HighScoreRecord
+import ch.makery.address.Main
 import scalafx.scene.control.{TableColumn, TableView}
-import mummyMaze.Main
 import scalafx.event.ActionEvent
 import scalafxml.core.macros.sfxml
-import scalikejdbc.DB
-import scalikejdbc._
 
 @sfxml
 class HighScoreRecordController(

@@ -1,6 +1,6 @@
-package mummyMaze.Traits
+package ch.makery.address.Traits
 
-import mummyMaze.Components.{Mummy, Player}
+import ch.makery.address.Components.{Mummy, Player}
 
 trait Death {
   def haveDied(player: Player, mummy: Mummy) = {
