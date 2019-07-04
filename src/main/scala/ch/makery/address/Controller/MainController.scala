@@ -1,6 +1,6 @@
-package mummyMaze.Controller
+package ch.makery.address.Controller
 
-import mummyMaze.Main
+import ch.makery.address.Main
 import scalafx.event.ActionEvent
 import scalafxml.core.macros.sfxml
 

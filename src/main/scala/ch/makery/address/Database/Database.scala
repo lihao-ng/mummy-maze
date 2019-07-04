@@ -1,6 +1,6 @@
 package Database
 
-import mummyMaze.Components.HighScoreRecord
+import ch.makery.address.Components.HighScoreRecord
 import scalikejdbc._
 
 trait Database {

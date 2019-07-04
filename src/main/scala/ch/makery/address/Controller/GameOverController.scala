@@ -1,8 +1,7 @@
-package mummyMaze.Controller
+package ch.makery.address.Controller
 
-import mummyMaze.Components.{HighScoreRecord, Score}
-import mummyMaze.Main
-import mummyMaze.Main.playersHighScore
+import ch.makery.address.Components.{HighScoreRecord, Score}
+import ch.makery.address.Main
 import scalafx.event.ActionEvent
 import scalafxml.core.macros.sfxml
 import scalafx.scene.control.{Label, TextField}
@@ -44,6 +43,6 @@ class GameOverController(
     val highScoreRecord = new HighScoreRecord(playerName.value, score)
     Main.playersHighScore += highScoreRecord
     highScoreRecord.save()
-    playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
+    Main.playersHighScore.sort((s,t) => s.score.value.v.value > t.score.value.v.value)
   }
 }

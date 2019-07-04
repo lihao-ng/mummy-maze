@@ -1,9 +1,10 @@
-package mummyMaze.Components
+package ch.makery.address.Components
 
 import scalafx.scene.image.Image
 import java.io.File
 
-import mummyMaze.Traits.{Death, KeyMovement}
+import ch.makery.address.Main
+import ch.makery.address.Traits.{Death, KeyMovement}
 import scalafx.scene.shape.Rectangle
 
 class Player() extends Character with KeyMovement with Death {
@@ -42,6 +43,6 @@ object Player {
   val width = 55
   val height = 55
   val step = 4
-  val imageLeft = new Image(new File(getClass.getResource("/mummyMaze/images/player/player_left.png").toString).toString)
-  val imageRight = new Image(new File(getClass.getResource("/mummyMaze/images/player/player_right.png").toString).toString)
+  val imageLeft = new Image(new File(Main.getClass.getResource("images/player/player_left.png").toString).toString)
+  val imageRight = new Image(new File(Main.getClass.getResource("images/player/player_right.png").toString).toString)
 }

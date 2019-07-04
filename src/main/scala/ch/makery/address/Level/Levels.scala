@@ -1,4 +1,4 @@
-package mummyMaze.Level
+package ch.makery.address.Level
 
 import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle
