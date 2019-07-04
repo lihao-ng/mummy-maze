@@ -1,6 +1,7 @@
 package mummyMaze.Components
 
 import Database.Database
+import mummyMaze.Main
 import scalafx.beans.property.{ObjectProperty, StringProperty}
 import scalikejdbc._
 
@@ -54,5 +55,12 @@ object HighScoreRecord extends Database{
     DB readOnly { implicit session =>
       sql"select * from highScoreRecord".map(rs => HighScoreRecord(rs.string("playerName"),new Score(rs.int("score")))).list.apply()
     }
+  }
+
+  def resetRecord : Any = {
+    DB autoCommit (implicit session =>
+      sql"delete from highScoreRecord".update.apply())
+
+    Main.playersHighScore.clear()
   }
 }
