@@ -23,11 +23,8 @@ class HighScoreRecordController(
     Main.backHomePage()
   }
 
-  def resetRecord: Any = {
-    DB autoCommit (implicit session =>
-      sql"delete from highScoreRecord".update.apply())
-
-    Main.playersHighScore.clear()
+  def resetRecord: Unit = {
+    HighScoreRecord.resetRecord
   }
 
 }
